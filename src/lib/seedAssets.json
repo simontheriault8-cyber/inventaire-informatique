@@ -1,0 +1,4991 @@
+[
+  {
+    "asset_tag": "172073012549",
+    "name": "Canon Rebel T6",
+    "serial_number": "172073012549",
+    "nsn": "6720-20-012-6922",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 247.05,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "172073012588",
+    "name": "Canon Rebel T6",
+    "serial_number": "172073012588",
+    "nsn": "6720-20-012-6922",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 247.05,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "CPDGQ2000285",
+    "name": "CP 1200 AVR",
+    "serial_number": "CPDGQ2000285",
+    "nsn": "6130-01-554-6306",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 202.14,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MLXL432PB4",
+    "name": "Desk HP 800",
+    "serial_number": "MLXL432PB4",
+    "nsn": "7021-20-006-7626",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "3CR1070HX8",
+    "name": "Desktop  9100",
+    "serial_number": "3CR1070HX8",
+    "nsn": "7010-20-005-3509",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "1D2LKB2",
+    "name": "Desktop Ciara",
+    "serial_number": "1D2LKB2",
+    "nsn": "7021-20-006-7082",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 757.3,
+    "notes": "10",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "1DXKKB2",
+    "name": "Desktop Ciara",
+    "serial_number": "1DXKKB2",
+    "nsn": "7021-20-006-7082",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 757.3,
+    "notes": "13",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "1DXLKB2",
+    "name": "Desktop Ciara",
+    "serial_number": "1DXLKB2",
+    "nsn": "7021-20-006-7082",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 757.3,
+    "notes": "9",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "1DXMKB2",
+    "name": "Desktop Ciara",
+    "serial_number": "1DXMKB2",
+    "nsn": "7021-20-006-7082",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 757.3,
+    "notes": "6",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "1DXQKB2",
+    "name": "Desktop Ciara",
+    "serial_number": "1DXQKB2",
+    "nsn": "7021-20-006-7082",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 757.3,
+    "notes": "8",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "1DXRKB2",
+    "name": "Desktop Ciara",
+    "serial_number": "1DXRKB2",
+    "nsn": "7021-20-006-7082",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 757.3,
+    "notes": "12",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "1DYQKB2",
+    "name": "Desktop Ciara",
+    "serial_number": "1DYQKB2",
+    "nsn": "7021-20-006-7082",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 757.3,
+    "notes": "14",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "1DYRKB2",
+    "name": "Desktop Ciara",
+    "serial_number": "1DYRKB2",
+    "nsn": "7021-20-006-7082",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 757.3,
+    "notes": "7",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "1FISKB2",
+    "name": "Desktop Ciara",
+    "serial_number": "1FISKB2",
+    "nsn": "7021-20-006-7082",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 757.3,
+    "notes": "5",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "1FOQKB2",
+    "name": "Desktop Ciara",
+    "serial_number": "1FOQKB2",
+    "nsn": "7021-20-006-7082",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 757.3,
+    "notes": "11",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "421031300022",
+    "name": "Desktop Ciara 8175",
+    "serial_number": "421031300022",
+    "nsn": "7021-20-012-7007",
+    "department": "Reception",
+    "purchase_price": 690.6,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "6105FR4ZB391",
+    "name": "Desktop Compaq Pro",
+    "serial_number": "6105FR4ZB391",
+    "nsn": "7021-21-920-5039",
+    "notes": "Pas su DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "6105FR4ZB444",
+    "name": "Desktop Compaq Pro",
+    "serial_number": "6105FR4ZB444",
+    "nsn": "7021-21-920-5039",
+    "notes": "Pas su DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "6105FR4ZB458",
+    "name": "Desktop Compaq Pro",
+    "serial_number": "6105FR4ZB458",
+    "nsn": "7021-21-920-5039",
+    "notes": "Pas su DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "6105FR4ZB467",
+    "name": "Desktop Compaq Pro",
+    "serial_number": "6105FR4ZB467",
+    "nsn": "7021-21-920-5039",
+    "notes": "Pas su DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "6105FR4ZB469",
+    "name": "Desktop Compaq Pro",
+    "serial_number": "6105FR4ZB469",
+    "nsn": "7021-21-920-5039",
+    "notes": "Pas su DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "5BB9XM2",
+    "name": "Desktop Dell Opti.5050",
+    "serial_number": "5BB9XM2",
+    "nsn": "7021-20-007-5110",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "user_grade": "s/o",
+    "purchase_price": 759.52,
+    "notes": "Bureau 16",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "TAG-122",
+    "name": "Desktop Dell Opti.5050",
+    "nsn": "7021-20-007-5110",
+    "purchase_price": 759.52,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MXL9513MH7",
+    "name": "Desktop Elite 8300",
+    "serial_number": "MXL9513MH7",
+    "nsn": "7010-01-565-7037",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 759.52,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MXL9513MHN",
+    "name": "Desktop Elite 8300",
+    "serial_number": "MXL9513MHN",
+    "nsn": "7010-01-565-7037",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 759.52,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MXL3071QS3",
+    "name": "Desktop Elite 8300",
+    "serial_number": "MXL3071QS3",
+    "nsn": "7010-01-565-7037",
+    "local_code": "QM",
+    "purchase_price": 759.52,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MXL9513MJH",
+    "name": "Desktop Elite 8300",
+    "serial_number": "MXL9513MJH",
+    "nsn": "7010-01-565-7037",
+    "local_code": "QM",
+    "purchase_price": 759.52,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MXL9513MJ9",
+    "name": "Desktop Elite 8300",
+    "serial_number": "MXL9513MJ9",
+    "nsn": "7010-01-565-7037",
+    "department": "Reception",
+    "purchase_price": 759.52,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MXL9513MJC",
+    "name": "Desktop Elite 8300",
+    "serial_number": "MXL9513MJC",
+    "nsn": "7010-01-565-7037",
+    "department": "Reception",
+    "purchase_price": 759.52,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "2UA4080PY7",
+    "name": "Desktop HP 800G2SFF",
+    "serial_number": "2UA4080PY7",
+    "nsn": "7021-20-007-5110",
+    "purchase_price": 759.52,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "5CD71429Y0",
+    "name": "HP Probook 450 G3",
+    "serial_number": "5CD71429Y0",
+    "nsn": "7010-20-009-5802",
+    "department": "Salle Biometrique",
+    "local_code": "120-28",
+    "purchase_price": 906.23,
+    "notes": "salle informatique",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "8CC743Z0VX",
+    "name": "HP Virtuel Reality",
+    "serial_number": "8CC743Z0VX",
+    "nsn": "5965-20-A0U-2257",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 372,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "8CC743Z0VX",
+    "name": "HP Virtuel Reality",
+    "serial_number": "8CC743Z0VX",
+    "nsn": "5965-20-A0U-2257",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 372,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ZD421T",
+    "name": "Imprimante Zebra",
+    "serial_number": "ZD421T",
+    "nsn": "7490-01-679-6610",
+    "department": "Medic",
+    "local_code": "120-14",
+    "purchase_price": 492.5,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DLXVN04DHP84",
+    "name": "Ipad pro 10.5",
+    "serial_number": "DLXVN04DHP84",
+    "nsn": "7010-20-001-6960",
+    "department": "Diversité",
+    "local_code": "120-25",
+    "assigned_user": "Oconnor.y (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 1039,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DLXVN02ZHP84",
+    "name": "Ipad pro 10.5",
+    "serial_number": "DLXVN02ZHP84",
+    "nsn": "7010-20-001-6960",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 1039,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "5CG8063HGR",
+    "name": "Laptop 840G3",
+    "serial_number": "5CG8063HGR",
+    "nsn": "7010-20-007-0525",
+    "purchase_price": 849.99,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "BN8C7S2",
+    "name": "Laptop Dell Lati. 5480",
+    "serial_number": "BN8C7S2",
+    "hostname": "2VA-DMV-LRCTG02",
+    "nsn": "7010-20-011-0645",
+    "department": "Salle informatique",
+    "local_code": "120-25",
+    "purchase_price": 1153.93,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "4BBWY93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "4BBWY93",
+    "hostname": "2VA-DMV-LRCT096",
+    "nsn": "7010-20-013-2691",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "assigned_user": "Administrateur (s/o)",
+    "user_grade": "s/o",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "7V8LY93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "7V8LY93",
+    "nsn": "7010-20-013-2691",
+    "department": "CCM",
+    "local_code": "120-07",
+    "assigned_user": "Bélanger.gjlr (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "1D8FY93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "1D8FY93",
+    "nsn": "7010-20-013-2691",
+    "department": "Medic",
+    "local_code": "120-15",
+    "assigned_user": "Belisle.j (Avr)",
+    "user_grade": "Avr",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "929FY93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "929FY93",
+    "hostname": "2VA-DMV-LRCT098",
+    "nsn": "7010-20-013-2691",
+    "department": "Traitement",
+    "local_code": "1-05",
+    "assigned_user": "Gagnon.sp (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ARM0022312616",
+    "name": "Laptop Dell Latit.5520",
+    "hostname": "2VA-DMV-LRCT015",
+    "nsn": "7010-20-013-2691",
+    "department": "CCM",
+    "local_code": "120-06",
+    "assigned_user": "Hébert.mh (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "98BWY93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "98BWY93",
+    "nsn": "7010-20-013-2691",
+    "department": "Attrac",
+    "local_code": "1-12",
+    "assigned_user": "Labreque.jfk (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "FC7LY93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "FC7LY93",
+    "nsn": "7010-20-013-2691",
+    "department": "Attrac",
+    "local_code": "1-12",
+    "assigned_user": "Labreque.jfk (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "12CFY93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "12CFY93",
+    "nsn": "7010-20-013-2691",
+    "department": "Attrac",
+    "local_code": "1-15",
+    "assigned_user": "Leblanc J. (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "HJ9FY93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "HJ9FY93",
+    "nsn": "7010-20-013-2691",
+    "department": "EM",
+    "local_code": "2-09",
+    "assigned_user": "Marcotte (Mat1)",
+    "user_grade": "Mat1",
+    "purchase_price": 1120.55,
+    "notes": "salle informatique",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "J58FY93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "J58FY93",
+    "nsn": "7010-20-013-2691",
+    "department": "2ieme Etage",
+    "local_code": "210-05",
+    "assigned_user": "salle conférence (s/o)",
+    "user_grade": "s/o",
+    "purchase_price": 1120.55,
+    "notes": "salle informatique",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "92CFY93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "92CFY93",
+    "nsn": "7010-20-013-2691",
+    "assigned_user": "Tornini.jf (Cpl)",
+    "user_grade": "Cpl",
+    "purchase_price": 1120.55,
+    "notes": "Maison",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "BGBFY93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "BGBFY93",
+    "hostname": "2VA-DMV-LRCT104",
+    "nsn": "7010-20-013-2691",
+    "department": "salle informatique",
+    "local_code": "120-25",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "8C8FY93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "8C8FY93",
+    "nsn": "7010-20-013-2691",
+    "department": "salle informatique",
+    "local_code": "120-25",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "22CFY93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "22CFY93",
+    "hostname": "2VA-DMV-LRCT090",
+    "nsn": "7010-20-013-2691",
+    "department": "Salle informatique",
+    "local_code": "120-25",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "4GBFY93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "4GBFY93",
+    "nsn": "7010-20-013-2691",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 1120.55,
+    "notes": "Power supply maison manquant / à venir",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "5F8FY93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "5F8FY93",
+    "hostname": "2VA-DMV-LRCT108",
+    "nsn": "7010-20-013-2691",
+    "department": "salle informatique",
+    "local_code": "120-25",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "5F8GZ93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "5F8GZ93",
+    "nsn": "7010-20-013-2691",
+    "department": "salle informatique",
+    "local_code": "120-25",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "5GBFY93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "5GBFY93",
+    "hostname": "2VA-DMV-LRCT097",
+    "nsn": "7010-20-013-2691",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "BG8GZ93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "BG8GZ93",
+    "nsn": "7010-20-013-2691",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "F9BWY93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "F9BWY93",
+    "nsn": "7010-20-013-2691",
+    "department": "Salle informatique",
+    "local_code": "120-25",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "JG8GZ93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "JG8GZ93",
+    "nsn": "7010-20-013-2691",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "JK8WY93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "JK8WY93",
+    "hostname": "2VA-DMV-LRCT095",
+    "nsn": "7010-20-013-2691",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "JN4LY93",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "JN4LY93",
+    "nsn": "7010-20-013-2691",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "11H1VG3",
+    "name": "Laptop Dell Latit.5520",
+    "serial_number": "11H1VG3",
+    "nsn": "7010-20-013-2691",
+    "department": "Medic",
+    "local_code": "120-14",
+    "purchase_price": 1120.55,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "TAG-162",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT978",
+    "nsn": "7010-20-013-2691",
+    "department": "Attrac",
+    "local_code": "120-03",
+    "assigned_user": "April-Pelletier.f (Adj)",
+    "user_grade": "Adj",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ARM00A2530287",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT975",
+    "nsn": "7010-20-012-6256",
+    "department": "CCM",
+    "local_code": "120-08",
+    "assigned_user": "Charette.jbp (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ARM00A2530314",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT971",
+    "nsn": "7010-20-012-6256",
+    "department": "CCM",
+    "local_code": "120-10",
+    "assigned_user": "Delgado Paco.df (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "TAG-165",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT985",
+    "nsn": "7010-20-013-2691",
+    "department": "Attrac",
+    "local_code": "1-16",
+    "assigned_user": "Lacoursière.a (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "TAG-166",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT981",
+    "nsn": "7010-20-013-2691",
+    "department": "EM",
+    "local_code": "2-15",
+    "assigned_user": "Letourneau.A (Civ)",
+    "user_grade": "Civ",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "TAG-167",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT023",
+    "nsn": "7010-20-012-6256",
+    "department": "2ieme Etage",
+    "local_code": "2-16",
+    "assigned_user": "Marcoux.j (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "TAG-168",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT987",
+    "nsn": "7010-20-013-2691",
+    "department": "2ieme Etage",
+    "local_code": "2-20",
+    "assigned_user": "Marin.p (Civ)",
+    "user_grade": "Civ",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "TAG-169",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT980",
+    "nsn": "7010-20-013-2691",
+    "department": "CCM",
+    "local_code": "120-06",
+    "assigned_user": "Martel.J (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ARM002430196",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT019",
+    "nsn": "7010-20-012-6256",
+    "department": "EM",
+    "local_code": "2-19",
+    "assigned_user": "Moisan.gpl (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "TAG-171",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT021",
+    "nsn": "7010-20-012-6256",
+    "department": "Medic",
+    "local_code": "120-16",
+    "assigned_user": "Munger.c (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "TAG-172",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT986",
+    "nsn": "7010-20-013-2691",
+    "department": "Médicale",
+    "local_code": "120-17",
+    "assigned_user": "Plante. g (M2)",
+    "user_grade": "M2",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "TAG-173",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT982",
+    "nsn": "7010-20-013-2691",
+    "department": "2ieme Etage",
+    "local_code": "2-21",
+    "assigned_user": "Proulx-Alarie.p (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ARM00A2430234",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT022",
+    "nsn": "7010-20-012-6256",
+    "department": "Attrac",
+    "local_code": "1-14",
+    "assigned_user": "Richer.pjda (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "TAG-175",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT989",
+    "nsn": "7010-20-013-2691",
+    "department": "Attrac",
+    "local_code": "1-07",
+    "assigned_user": "Samuel.pc (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "TAG-176",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT025",
+    "nsn": "7010-20-012-6256",
+    "department": "Reception",
+    "local_code": "cubicule",
+    "assigned_user": "Samuel.pc (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "TAG-177",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT995",
+    "nsn": "7010-20-013-2691",
+    "department": "Attrac",
+    "local_code": "1-09",
+    "assigned_user": "Thériault.s (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ARM00A2530215",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT967",
+    "nsn": "7010-20-012-6256",
+    "department": "CCM",
+    "local_code": "120-09",
+    "assigned_user": "Tourigny.la (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "TAG-179",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT026",
+    "nsn": "7010-20-012-6256",
+    "department": "2ieme Etage",
+    "local_code": "2-12",
+    "assigned_user": "Trudel-Mongrain.j (Cpl)",
+    "user_grade": "Cpl",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ARM00A2530092",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT970",
+    "nsn": "7010-20-012-6256",
+    "department": "Salle informatique",
+    "local_code": "120-25",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ARM00A2530321",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT972",
+    "nsn": "7010-20-012-6256",
+    "department": "Salle informatique",
+    "local_code": "120-25",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ARM00A2530255",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT974",
+    "nsn": "7010-20-012-6256",
+    "department": "salle informatique",
+    "local_code": "120-25",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "TAG-183",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT988",
+    "nsn": "7010-20-013-2691",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "TAG-184",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT983",
+    "nsn": "7010-20-013-2691",
+    "department": "Traitement",
+    "local_code": "1-37",
+    "purchase_price": 1053.12,
+    "notes": "salle informatique",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "TAG-185",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT984",
+    "nsn": "7010-20-013-2691",
+    "department": "Attrac",
+    "local_code": "1-10",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ARM00A2530291",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT960",
+    "nsn": "7010-20-012-6256",
+    "department": "salle informatique",
+    "local_code": "1-125",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ARM00A2530067",
+    "name": "Laptop Dynabook",
+    "hostname": "2VA-DMV-LRCT962",
+    "nsn": "7010-20-012-6256",
+    "department": "Attrac",
+    "local_code": "1-13",
+    "purchase_price": 1053.12,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "2LV60UA-ABA",
+    "name": "Laptop Gaming OMEN",
+    "serial_number": "2LV60UA-ABA",
+    "nsn": "7010-20-A0U-2254",
+    "local_code": "QM",
+    "purchase_price": 2940,
+    "notes": "Montreal",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "5CG810220Y",
+    "name": "Laptop HP 640G2",
+    "serial_number": "5CG810220Y",
+    "nsn": "7010-20-007-0525",
+    "assigned_user": "Beaulieu.jm (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 849.99,
+    "notes": "Maison",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "CNU1520ZLY",
+    "name": "Laptop HP 8460p",
+    "serial_number": "CNU1520ZLY",
+    "nsn": "7010-20-005-4184",
+    "notes": "salle informatique",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "BCAJYSEBEEXS",
+    "name": "Laptop HP EliteBook 850",
+    "serial_number": "BCAJYSEBEEXS",
+    "nsn": "7010-20-007-7993",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 1363.59,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "BCAJYZ5EBEFBF",
+    "name": "Laptop HP EliteBook 850",
+    "serial_number": "BCAJYZ5EBEFBF",
+    "nsn": "7010-20-007-7993",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 1363.59,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "BCAJYZ5EBLFZJ",
+    "name": "Laptop HP EliteBook 850",
+    "serial_number": "BCAJYZ5EBLFZJ",
+    "nsn": "7010-20-007-7993",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 1363.59,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "BCAJYZ5SECDCQS",
+    "name": "Laptop HP EliteBook 850",
+    "serial_number": "BCAJYZ5SECDCQS",
+    "nsn": "7010-20-007-7993",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 1363.59,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "BCAJYZSECDCFT",
+    "name": "Laptop HP EliteBook 850",
+    "serial_number": "BCAJYZSECDCFT",
+    "nsn": "7010-20-007-7993",
+    "department": "salle informatique",
+    "local_code": "120-25",
+    "purchase_price": 1363.59,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "BCALR103CFEC30CQOA",
+    "name": "Laptop HP EliteBook 850",
+    "serial_number": "BCALR103CFEC30CQOA",
+    "nsn": "7010-20-007-7993",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 1363.59,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "BCALR103CFEC80CKWJ",
+    "name": "Laptop HP EliteBook 850",
+    "serial_number": "BCALR103CFEC80CKWJ",
+    "nsn": "7010-20-007-7993",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 1363.59,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "bcalr103cfec50clba",
+    "name": "Laptop HP EliteBook 850",
+    "serial_number": "bcalr103cfec50clba",
+    "nsn": "7010-20-007-7993",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 1363.59,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "BCAJYZ5EBEE",
+    "name": "Laptop HP EliteBook 850",
+    "serial_number": "BCAJYZ5EBEE",
+    "nsn": "7010-20-007-7993",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 1363.59,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "BCAJYZ5EBLFZH",
+    "name": "Laptop HP EliteBook 850",
+    "serial_number": "BCAJYZ5EBLFZH",
+    "nsn": "7010-20-007-7993",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 1363.59,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "BCALR103CFEC30CQTD",
+    "name": "Laptop HP EliteBook 850",
+    "serial_number": "BCALR103CFEC30CQTD",
+    "nsn": "7010-20-007-7993",
+    "department": "Accueil",
+    "purchase_price": 1363.59,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "5CG810223N",
+    "name": "Laptop HP Probook640G2",
+    "serial_number": "5CG810223N",
+    "nsn": "7010-20-007-0525",
+    "purchase_price": 849.99,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "R90BC3ZM",
+    "name": "Laptop Lenovo T410 ThinkPad L440",
+    "serial_number": "R90BC3ZM",
+    "nsn": "7010-20-006-7835",
+    "notes": "Pas sur DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MJOLTBFV",
+    "name": "Lenovo Thinkpad",
+    "serial_number": "MJOLTBFV",
+    "hostname": "2VA-DMV-WRCT719",
+    "nsn": "7021-20-012-7013",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "user_grade": "s/o",
+    "purchase_price": 759.52,
+    "notes": "Bureau 8",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MJOLTBFM",
+    "name": "Lenovo Thinkpad",
+    "serial_number": "MJOLTBFM",
+    "hostname": "2VA-DMV-WRCT720",
+    "nsn": "7021-20-012-7013",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "user_grade": "s/o",
+    "purchase_price": 759.52,
+    "notes": "Bureau 6",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MJOLTBGT",
+    "name": "Lenovo Thinkpad",
+    "serial_number": "MJOLTBGT",
+    "hostname": "2VA-DMV-WRCT721",
+    "nsn": "7021-20-012-7013",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "user_grade": "s/o",
+    "purchase_price": 759.52,
+    "notes": "Bureau 4",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MJOLTBF4",
+    "name": "Lenovo Thinkpad",
+    "serial_number": "MJOLTBF4",
+    "hostname": "2VA-DMV-WRCT722",
+    "nsn": "7021-20-012-7013",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "user_grade": "s/o",
+    "purchase_price": 759.52,
+    "notes": "Bureau 9",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MJOLTBGW",
+    "name": "Lenovo Thinkpad",
+    "serial_number": "MJOLTBGW",
+    "hostname": "2VA-DMV-WRCT723",
+    "nsn": "7021-20-012-7013",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "user_grade": "s/o",
+    "purchase_price": 759.52,
+    "notes": "Bureau 12",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MJOLTBH9",
+    "name": "Lenovo Thinkpad",
+    "serial_number": "MJOLTBH9",
+    "hostname": "2VA-DMV-WRCT724",
+    "nsn": "7021-20-012-7013",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "user_grade": "s/o",
+    "purchase_price": 759.52,
+    "notes": "Bureau 2",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MJOLTBFC",
+    "name": "Lenovo Thinkpad",
+    "serial_number": "MJOLTBFC",
+    "hostname": "2VA-DMV-WRCT725",
+    "nsn": "7021-20-012-7013",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "user_grade": "s/o",
+    "purchase_price": 759.52,
+    "notes": "Bureau 1",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MJOLTBFA",
+    "name": "Lenovo Thinkpad",
+    "serial_number": "MJOLTBFA",
+    "hostname": "2VA-DMV-WRCT726",
+    "nsn": "7021-20-012-7013",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "user_grade": "s/o",
+    "purchase_price": 759.52,
+    "notes": "Bureau 11",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MJOLTBF1",
+    "name": "Lenovo Thinkpad",
+    "serial_number": "MJOLTBF1",
+    "hostname": "2VA-DMV-WRCT727",
+    "nsn": "7021-20-012-7013",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "user_grade": "s/o",
+    "purchase_price": 759.52,
+    "notes": "Bureau 14",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MJOLTBHC",
+    "name": "Lenovo Thinkpad",
+    "serial_number": "MJOLTBHC",
+    "hostname": "2VA-DMV-WRCT728",
+    "nsn": "7021-20-012-7013",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "user_grade": "s/o",
+    "purchase_price": 759.52,
+    "notes": "Bureau 7",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MJOLTBH8",
+    "name": "Lenovo Thinkpad",
+    "serial_number": "MJOLTBH8",
+    "hostname": "2VA-DMV-WRCT729",
+    "nsn": "7021-20-012-7013",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "user_grade": "s/o",
+    "purchase_price": 759.52,
+    "notes": "Bureau 17",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MJOLTBHB",
+    "name": "Lenovo Thinkpad",
+    "serial_number": "MJOLTBHB",
+    "hostname": "2VA-DMV-WRCT730",
+    "nsn": "7021-20-012-7013",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "user_grade": "s/o",
+    "purchase_price": 759.52,
+    "notes": "Bureau 18",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MJOLTBF6",
+    "name": "Lenovo Thinkpad",
+    "serial_number": "MJOLTBF6",
+    "hostname": "2VA-DMV-WRCT731",
+    "nsn": "7021-20-012-7013",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "user_grade": "s/o",
+    "purchase_price": 759.52,
+    "notes": "Bureau 10",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MJOLTBG9",
+    "name": "Lenovo Thinkpad",
+    "serial_number": "MJOLTBG9",
+    "hostname": "2VA-DMV-WRCT732",
+    "nsn": "7021-20-012-7013",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "user_grade": "s/o",
+    "purchase_price": 759.52,
+    "notes": "Bureau 13",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MJOLTBG3",
+    "name": "Lenovo Thinkpad",
+    "serial_number": "MJOLTBG3",
+    "hostname": "2VA-DMV-WRCT733",
+    "nsn": "7021-20-012-7013",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "user_grade": "s/o",
+    "purchase_price": 759.52,
+    "notes": "Bureau 3",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MJOLTBHE",
+    "name": "Lenovo Thinkpad",
+    "serial_number": "MJOLTBHE",
+    "hostname": "2VA-DMV-WRCT734",
+    "nsn": "7021-20-012-7013",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "user_grade": "s/o",
+    "purchase_price": 759.52,
+    "notes": "Bureau 15",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MJOLTBEV",
+    "name": "Lenovo Thinkpad",
+    "serial_number": "MJOLTBEV",
+    "hostname": "2VA-DMV-WRCT735",
+    "nsn": "7021-20-012-7013",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "user_grade": "s/o",
+    "purchase_price": 759.52,
+    "notes": "Bureau 5",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1541011666",
+    "name": "monitor",
+    "serial_number": "UHBA1541011666",
+    "nsn": "7025-20-001-3162",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "notes": "bureau 2",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "99L0E72LNA42800068HLBLNAH",
+    "name": "Monitor BENQ",
+    "serial_number": "99L0E72LNA42800068HLBLNAH",
+    "nsn": "7025-20-001-3162",
+    "local_code": "AT104",
+    "purchase_price": 775.26,
+    "notes": "Retourné au RnD en October",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ETNB608794SL0",
+    "name": "Monitor BENQ 24 LCD",
+    "serial_number": "ETNB608794SL0",
+    "nsn": "7025-20-002-1333",
+    "department": "Salle Biometrique",
+    "local_code": "120-29",
+    "assigned_user": "Samson.jph (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 271.57,
+    "notes": "salle informatique",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ETNB608791SL0T",
+    "name": "Monitor BENQ 24 LCD",
+    "serial_number": "ETNB608791SL0T",
+    "nsn": "7025-20-002-1333",
+    "department": "Diversité",
+    "purchase_price": 271.57,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ETN8608779SL0T",
+    "name": "Monitor BENQ 24 LCD",
+    "serial_number": "ETN8608779SL0T",
+    "nsn": "7025-20-002-1333",
+    "purchase_price": 271.57,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "F8FQ6X2",
+    "name": "Monitor Dell 24 P2419H",
+    "serial_number": "F8FQ6X2",
+    "nsn": "7025-20-002-1333",
+    "purchase_price": 271.57,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "HFFQ6X2",
+    "name": "Monitor Dell 24 P2419H",
+    "serial_number": "HFFQ6X2",
+    "nsn": "7025-20-002-1333",
+    "purchase_price": 271.57,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "CN07GTTWS2007C6315LA03",
+    "name": "Monitor Dell UP3017",
+    "serial_number": "CN07GTTWS2007C6315LA03",
+    "nsn": "7025-20-003-2849",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "assigned_user": "Administrateur (s/o)",
+    "user_grade": "s/o",
+    "purchase_price": 1569.84,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "CN0V5OXYQDC0097P881LA05",
+    "name": "Monitor Dell UP3017",
+    "serial_number": "CN0V5OXYQDC0097P881LA05",
+    "nsn": "7025-20-003-2849",
+    "department": "2ieme Etage",
+    "local_code": "120-23",
+    "assigned_user": "Boucher.jaw (Maj)",
+    "user_grade": "Maj",
+    "purchase_price": 1569.84,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ET1915L-8CWA-1-G",
+    "name": "Monitor Elo Touch",
+    "serial_number": "ET1915L-8CWA-1-G",
+    "nsn": "7025-01-690-3012",
+    "department": "Sous-Sol",
+    "purchase_price": 1125,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "011NDGLLY047",
+    "name": "Monitor LG Flotron W2246",
+    "serial_number": "011NDGLLY047",
+    "nsn": "7025-20-002-4536",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "011NDRFLY062",
+    "name": "Monitor LG Flotron W2246",
+    "serial_number": "011NDRFLY062",
+    "nsn": "7025-20-002-4536",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "011NDVWLY063",
+    "name": "Monitor LG Flotron W2246",
+    "serial_number": "011NDVWLY063",
+    "nsn": "7025-20-002-4536",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "011NDYGLY066",
+    "name": "Monitor LG Flotron W2246",
+    "serial_number": "011NDYGLY066",
+    "nsn": "7025-20-002-4536",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "AU6A0747004727",
+    "name": "Monitor Philips 19",
+    "serial_number": "AU6A0747004727",
+    "nsn": "7025-20-000-7601",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "BZ000517224008",
+    "name": "Monitor Philips 20",
+    "serial_number": "BZ000517224008",
+    "nsn": "7025-20-000-7230",
+    "notes": "Pas sue DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1040425511",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1040425511",
+    "nsn": "7025-20-002-4536",
+    "department": "Traitement",
+    "local_code": "1-05",
+    "assigned_user": "Gagnon.sp (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1040425525",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1040425525",
+    "nsn": "7025-20-002-4536",
+    "department": "2ieme Etage",
+    "local_code": "2-16",
+    "assigned_user": "Marcoux.j (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1138251494",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1138251494",
+    "nsn": "7025-20-002-4536",
+    "department": "Salle Personnel Instruction",
+    "local_code": "120-24",
+    "assigned_user": "Position 12",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL4A0930712966",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL4A0930712966",
+    "nsn": "7025-20-002-4536",
+    "department": "Salle Personnel Instruction",
+    "local_code": "120-24",
+    "assigned_user": "Position 6",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A0904087249",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL3A0904087249",
+    "nsn": "7025-20-000-7127",
+    "department": "Salle Personnel Instruction",
+    "local_code": "120-24",
+    "assigned_user": "Position 8",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1040425522",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1040425522",
+    "nsn": "7025-20-002-4536",
+    "department": "Salle Personnel Instruction",
+    "local_code": "120-24",
+    "assigned_user": "Position 9",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1040425537",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1040425537",
+    "nsn": "7025-20-002-4536",
+    "department": "2ieme Etage",
+    "local_code": "2-21",
+    "assigned_user": "Proulx-Alarie.p (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1040425515",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1040425515",
+    "nsn": "7025-20-002-4536",
+    "department": "Attrac",
+    "local_code": "1-14",
+    "assigned_user": "Richer.pjda (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1138250510",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1138250510",
+    "nsn": "7025-20-002-4536",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 302.89,
+    "notes": "salle informatique",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1138250734",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1138250734",
+    "nsn": "7025-20-002-4536",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 302.89,
+    "notes": "salle informatique",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1138251468",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1138251468",
+    "nsn": "7025-20-002-4536",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 302.89,
+    "notes": "salle informatique",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A0904067260",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL3A0904067260",
+    "nsn": "7025-20-002-4536",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1138251005",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1138251005",
+    "nsn": "7025-20-002-4536",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1040425524",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL3A1040425524",
+    "nsn": "7025-20-002-4536",
+    "purchase_price": 302.89,
+    "notes": "salle informatique",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A140425511",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A140425511",
+    "nsn": "7025-20-002-4536",
+    "department": "Attrac",
+    "local_code": "1-06",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1138250502",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1138250502",
+    "nsn": "7025-20-002-4536",
+    "department": "Attrac",
+    "local_code": "1-10",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1138250331T",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1138250331T",
+    "nsn": "7025-20-002-4536",
+    "department": "Traitement",
+    "local_code": "1-13",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1040425522",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1040425522",
+    "nsn": "7025-20-002-4536",
+    "department": "Medic",
+    "local_code": "120-14",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1040425514",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1040425514",
+    "nsn": "7025-20-002-4536",
+    "department": "Sale de Test",
+    "local_code": "120-23",
+    "purchase_price": 302.89,
+    "notes": "Bureau 7",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A0847099560",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL3A0847099560",
+    "nsn": "7025-20-002-4536",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 302.89,
+    "notes": "Bureau 6",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1040425518T",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL3A1040425518T",
+    "nsn": "7025-20-002-4536",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 302.89,
+    "notes": "bureau 17",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL4A0930712939T",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL4A0930712939T",
+    "nsn": "7025-20-002-4536",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 302.89,
+    "notes": "bureau 18",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL4A0930712974T",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL4A0930712974T",
+    "nsn": "7025-20-002-4536",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 302.89,
+    "notes": "bureau 12",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1040425504T",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1040425504T",
+    "nsn": "7025-20-002-4536",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 302.89,
+    "notes": "bureau 15",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1040425517T",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1040425517T",
+    "nsn": "7025-20-002-4536",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 302.89,
+    "notes": "bureau 11",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1040425534T",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1040425534T",
+    "nsn": "7025-20-002-4536",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 302.89,
+    "notes": "bureau 8",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1138250330T",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1138250330T",
+    "nsn": "7025-20-002-4536",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1138250430",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1138250430",
+    "nsn": "7025-20-002-4536",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 302.89,
+    "notes": "Bureau 10",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1138250490T",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1138250490T",
+    "nsn": "7025-20-002-4536",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 302.89,
+    "notes": "bureau 16",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1040425528T",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1040425528T",
+    "nsn": "7025-20-002-4536",
+    "local_code": "QM",
+    "purchase_price": 302.89,
+    "notes": "?",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL4A0930712998",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL4A0930712998",
+    "nsn": "7025-20-002-4536",
+    "department": "Reception",
+    "local_code": "R-3",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A0904067278T",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL3A0904067278T",
+    "nsn": "7025-20-000-7127",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A0847099552T",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL3A0847099552T",
+    "nsn": "7025-20-002-4536",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A0904067263",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL3A0904067263",
+    "nsn": "7025-20-002-4536",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A1040425521T",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A1040425521T",
+    "nsn": "7025-20-002-4536",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL5A11382250510",
+    "name": "Monitor Philips 22",
+    "serial_number": "DL5A11382250510",
+    "nsn": "7025-20-002-4536",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DP22HVNQ40004SE",
+    "name": "Monitor Philips 22",
+    "serial_number": "DP22HVNQ40004SE",
+    "nsn": "7025-20-002-4536",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DP22HVNQ400175V",
+    "name": "Monitor Philips 22",
+    "serial_number": "DP22HVNQ400175V",
+    "nsn": "7025-20-002-4536",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DP22HVNQ400176L",
+    "name": "Monitor Philips 22",
+    "serial_number": "DP22HVNQ400176L",
+    "nsn": "7025-20-002-4536",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1601005991",
+    "name": "Monitor Philips 23",
+    "serial_number": "UHBA1601005991",
+    "nsn": "7025-20-001-3162",
+    "department": "CCM",
+    "local_code": "120-08",
+    "assigned_user": "Charette.jbp (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1601006260",
+    "name": "Monitor Philips 23",
+    "serial_number": "UHBA1601006260",
+    "nsn": "7025-20-001-3162",
+    "department": "CCM",
+    "local_code": "120-08",
+    "assigned_user": "Charette.jbp (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1601005990",
+    "name": "Monitor Philips 23",
+    "serial_number": "UHBA1601005990",
+    "nsn": "7025-20-001-3162",
+    "department": "Traitement",
+    "local_code": "1-20",
+    "assigned_user": "Courcy.d (civ)",
+    "user_grade": "civ",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1601005662",
+    "name": "Monitor Philips 23",
+    "serial_number": "UHBA1601005662",
+    "nsn": "7025-20-001-3162",
+    "department": "CCM",
+    "local_code": "120-10",
+    "assigned_user": "Delgado Paco.df (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1601005671",
+    "name": "Monitor Philips 23",
+    "serial_number": "UHBA1601005671",
+    "nsn": "7025-20-001-3162",
+    "department": "Attrac",
+    "local_code": "1-12",
+    "assigned_user": "Labreque.jkf (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1601005989",
+    "name": "Monitor Philips 23",
+    "serial_number": "UHBA1601005989",
+    "nsn": "7025-20-001-3162",
+    "department": "Attrac",
+    "local_code": "1-12",
+    "assigned_user": "Labreque.jkf (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1601005672",
+    "name": "Monitor Philips 23",
+    "serial_number": "UHBA1601005672",
+    "nsn": "7025-20-001-3162",
+    "department": "Diversité",
+    "local_code": "1-06",
+    "assigned_user": "Matte (Cpl)",
+    "user_grade": "Cpl",
+    "purchase_price": 775.26,
+    "notes": "Écran a maison",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1601005988",
+    "name": "Monitor Philips 23",
+    "serial_number": "UHBA1601005988",
+    "nsn": "7025-20-001-3162",
+    "department": "Diversité",
+    "local_code": "1-05",
+    "assigned_user": "O'Connor.y (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1634025523",
+    "name": "Monitor philips 23",
+    "serial_number": "UHBA1634025523",
+    "nsn": "7025-20-001-3162",
+    "department": "Medic",
+    "local_code": "120-17",
+    "assigned_user": "Plante.g (M2)",
+    "user_grade": "M2",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1150564401",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1150564401",
+    "nsn": "7025-20-001-3162",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1150564428",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1150564428",
+    "nsn": "7025-20-001-3162",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 775.26,
+    "notes": "Good Screen",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1601005660",
+    "name": "Monitor Philips 23",
+    "serial_number": "UHBA1601005660",
+    "nsn": "7025-20-001-3162",
+    "department": "Attrac",
+    "local_code": "1-10",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1150564381",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1150564381",
+    "nsn": "7025-20-001-3162",
+    "department": "Medic",
+    "local_code": "120-16",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1150564368",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1150564368",
+    "nsn": "7025-20-001-3162",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 775.26,
+    "notes": "Bureau 1",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1601005982",
+    "name": "Monitor Philips 23",
+    "serial_number": "UHBA1601005982",
+    "nsn": "7025-20-001-3162",
+    "department": "2ieme Etage",
+    "local_code": "2-17",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1601005987",
+    "name": "Monitor Philips 23",
+    "serial_number": "UHBA1601005987",
+    "nsn": "7025-20-001-3162",
+    "local_code": "QM",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1601005664",
+    "name": "Monitor Philips 23",
+    "serial_number": "UHBA1601005664",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1151608738",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1151608738",
+    "nsn": "7025-20-001-3162",
+    "department": "Réception",
+    "local_code": "R-1",
+    "assigned_user": "Bureau.e (Cpl)",
+    "user_grade": "Cpl",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1151608739",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1151608739",
+    "nsn": "7025-20-001-3162",
+    "department": "Réception",
+    "local_code": "R-1",
+    "assigned_user": "Bureau.e (Cpl)",
+    "user_grade": "Cpl",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1150564417",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1150564417",
+    "nsn": "7025-20-001-3162",
+    "department": "2ieme Etage",
+    "local_code": "2-15",
+    "assigned_user": "Dion.jhm (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1206757796",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1206757796",
+    "nsn": "7025-20-001-3162",
+    "department": "2ieme Etage",
+    "local_code": "2-15",
+    "assigned_user": "Dion.jhm (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1150564380",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1150564380",
+    "nsn": "7025-20-001-3162",
+    "department": "CCM",
+    "local_code": "120-06",
+    "assigned_user": "Hébert.mh (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1150564430",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1150564430",
+    "nsn": "7025-20-001-3162",
+    "department": "CCM",
+    "local_code": "120-06",
+    "assigned_user": "Hébert.mh (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1151600077",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1151600077",
+    "nsn": "7025-20-001-3162",
+    "department": "Attrac",
+    "local_code": "1-15",
+    "assigned_user": "Leblanc J. (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1151600105",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1151600105",
+    "nsn": "7025-20-001-3162",
+    "department": "Diversité",
+    "local_code": "1-06",
+    "assigned_user": "Matte (Cpl)",
+    "user_grade": "Cpl",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1150564420",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1150564420",
+    "nsn": "7025-20-001-3162",
+    "department": "Medic",
+    "local_code": "120-17",
+    "assigned_user": "Plante.g (M2)",
+    "user_grade": "M2",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1151600035",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1151600035",
+    "nsn": "7025-20-001-3162",
+    "department": "Salle Personnel Instruction",
+    "local_code": "120-24",
+    "assigned_user": "Position 14",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1150564373",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1150564373",
+    "nsn": "7025-20-001-3162",
+    "department": "Salle Personnel Instruction",
+    "local_code": "120-24",
+    "assigned_user": "Position 3",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1150564370",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1150564370",
+    "nsn": "7025-20-001-3162",
+    "department": "Salle Personnel Instruction",
+    "local_code": "120-24",
+    "assigned_user": "Position 7",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1151600102",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1151600102",
+    "nsn": "7025-20-001-3162",
+    "department": "2ieme Etage",
+    "local_code": "2-21",
+    "assigned_user": "Proulx-Alarie.p (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1150564426",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1150564426",
+    "nsn": "7025-20-001-3162",
+    "department": "Attrac",
+    "local_code": "1-09",
+    "assigned_user": "Thériault.s (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1151608737",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1151608737",
+    "nsn": "7025-20-001-3162",
+    "department": "Attrac",
+    "local_code": "1-09",
+    "assigned_user": "Thériault.s (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1150564425",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1150564425",
+    "nsn": "7025-20-001-3162",
+    "department": "CCM",
+    "local_code": "120-09",
+    "assigned_user": "Tourigny.la (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1151608748",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1151608748",
+    "nsn": "7025-20-001-3162",
+    "department": "CCM",
+    "local_code": "120-09",
+    "assigned_user": "Tourigny.la (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1150564419",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1150564419",
+    "nsn": "7025-20-001-3162",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 775.26,
+    "notes": "Good Screen",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1151600059",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1151600059",
+    "nsn": "7025-20-001-3162",
+    "department": "CCM",
+    "local_code": "120-07",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1150564416",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1150564416",
+    "nsn": "7025-20-001-3162",
+    "department": "Medic",
+    "local_code": "120-16",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1151600104",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1151600104",
+    "nsn": "7025-20-001-3162",
+    "department": "sale de Test",
+    "local_code": "120-23",
+    "purchase_price": 775.26,
+    "notes": "bureau 4",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1151600080",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1151600080",
+    "nsn": "7025-20-001-3162",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 775.26,
+    "notes": "bureau 13",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1151608719",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1151608719",
+    "nsn": "7025-20-001-3162",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 775.26,
+    "notes": "Bureau 9",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1151600070",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1151600070",
+    "nsn": "7025-20-001-3162",
+    "department": "Reception",
+    "local_code": "R-2",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1150564411",
+    "name": "Monitor Philips 23",
+    "serial_number": "DL3A1150564411",
+    "nsn": "7025-20-001-3162",
+    "department": "Salle de Test",
+    "purchase_price": 775.26,
+    "notes": "Bureau 14",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "BZ000550380245",
+    "name": "Monitor Philips 23",
+    "serial_number": "BZ000550380245",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "BZ000550380252",
+    "name": "Monitor Philips 23",
+    "serial_number": "BZ000550380252",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006440",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006440",
+    "nsn": "7025-20-001-3162",
+    "department": "Attrac",
+    "local_code": "120-03",
+    "assigned_user": "April-Pelletier.f (Adj)",
+    "user_grade": "Adj",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1541011686",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1541011686",
+    "nsn": "7025-20-001-3162",
+    "department": "Attrac",
+    "local_code": "120-03",
+    "assigned_user": "April-Pelletier.f (Adj)",
+    "user_grade": "Adj",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006389",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006389",
+    "nsn": "7025-20-001-3162",
+    "department": "Medic",
+    "local_code": "120-15",
+    "assigned_user": "Belisle.j (Avr)",
+    "user_grade": "Avr",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006391",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006391",
+    "nsn": "7025-20-001-3162",
+    "department": "Medic",
+    "local_code": "120-15",
+    "assigned_user": "Belisle.j (Avr)",
+    "user_grade": "Avr",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1538002244",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1538002244",
+    "nsn": "7025-20-001-3162",
+    "department": "Traitement",
+    "local_code": "1-20",
+    "assigned_user": "Courcy.d (civ)",
+    "user_grade": "civ",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006441",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006441",
+    "nsn": "7025-20-001-3162",
+    "department": "CCM",
+    "local_code": "120-10",
+    "assigned_user": "Delgado Paco.df (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006438",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006438",
+    "nsn": "7025-20-001-3162",
+    "department": "Attrac",
+    "local_code": "1-11",
+    "assigned_user": "Garant.cjms (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537007056",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537007056",
+    "nsn": "7025-20-001-3162",
+    "department": "Attrac",
+    "local_code": "1-11",
+    "assigned_user": "Garant.cjms (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006607",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006607",
+    "nsn": "7025-20-001-3162",
+    "department": "Traitement",
+    "local_code": "1-19",
+    "assigned_user": "Garneau.n (civ)",
+    "user_grade": "civ",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1538002245",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1538002245",
+    "nsn": "7025-20-001-3162",
+    "department": "Traitement",
+    "local_code": "1-19",
+    "assigned_user": "Garneau.n (civ)",
+    "user_grade": "civ",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1538002243",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1538002243",
+    "nsn": "7025-20-001-3162",
+    "department": "Attrac",
+    "local_code": "1-16",
+    "assigned_user": "Lacourcière.A (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1541011656",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1541011656",
+    "nsn": "7025-20-001-3162",
+    "department": "Attrac",
+    "local_code": "1-16",
+    "assigned_user": "Lacourcière.A (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1541011788",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1541011788",
+    "nsn": "7025-20-001-3162",
+    "department": "Attrac",
+    "local_code": "1-15",
+    "assigned_user": "Leblanc J. (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006444",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006444",
+    "nsn": "7025-20-001-3162",
+    "department": "2ieme Etage",
+    "local_code": "2-20",
+    "assigned_user": "Marin.p (Civ)",
+    "user_grade": "Civ",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006608",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006608",
+    "nsn": "7025-20-001-3162",
+    "department": "2ieme Etage",
+    "local_code": "2-20",
+    "assigned_user": "Marin.p (Civ)",
+    "user_grade": "Civ",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006747",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006747",
+    "nsn": "7025-20-001-3162",
+    "department": "Salle Personnel Instruction",
+    "local_code": "120-24",
+    "assigned_user": "Position 1",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1150564427",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "DL3A1150564427",
+    "nsn": "7025-20-001-3162",
+    "department": "Salle Personnel Instruction",
+    "local_code": "120-24",
+    "assigned_user": "Position 10",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006754",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006754",
+    "nsn": "7025-20-001-3162",
+    "department": "Salle Personnel Instruction",
+    "local_code": "120-24",
+    "assigned_user": "Position 11",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1538002142",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1538002142",
+    "nsn": "7025-20-001-3162",
+    "department": "Salle Personnel Instruction",
+    "local_code": "120-24",
+    "assigned_user": "Position 4",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006655",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006655",
+    "nsn": "7025-20-001-3162",
+    "department": "Salle Personnel Instruction",
+    "local_code": "120-24",
+    "assigned_user": "Position 5",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006661",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006661",
+    "nsn": "7025-20-001-3162",
+    "department": "Attrac",
+    "local_code": "1-14",
+    "assigned_user": "Richer.pjda (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006387",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006387",
+    "nsn": "7025-20-001-3162",
+    "department": "CCM",
+    "local_code": "120-05",
+    "assigned_user": "Samson.jph (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1538002155",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1538002155",
+    "nsn": "7025-20-001-3162",
+    "department": "CCM",
+    "local_code": "120-05",
+    "assigned_user": "Samson.jph (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006654",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006654",
+    "nsn": "7025-20-001-3162",
+    "department": "Attrac",
+    "local_code": "1-07",
+    "assigned_user": "Samuel.pc (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1541011783",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1541011783",
+    "nsn": "7025-20-001-3162",
+    "department": "Attrac",
+    "local_code": "1-07",
+    "assigned_user": "Samuel.pc (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006388",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006388",
+    "nsn": "7025-20-001-3162",
+    "department": "2ieme Etage",
+    "local_code": "2-12",
+    "assigned_user": "Trudel-Mongrain.j (Cpl)",
+    "user_grade": "Cpl",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006442",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006442",
+    "nsn": "7025-20-001-3162",
+    "department": "2ieme Etage",
+    "local_code": "2-12",
+    "assigned_user": "Trudel-Mongrain.j (Cpl)",
+    "user_grade": "Cpl",
+    "purchase_price": 775.26,
+    "notes": "Écran a maison",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006803",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006803",
+    "nsn": "7025-20-001-3162",
+    "department": "2ieme Etage",
+    "local_code": "2-12",
+    "assigned_user": "Trudel-Mongrain.j (Cpl)",
+    "user_grade": "Cpl",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006456",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006456",
+    "nsn": "7025-20-001-3162",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006656",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006656",
+    "nsn": "7025-20-001-3162",
+    "department": "Traitement",
+    "local_code": "1-13",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006580",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006580",
+    "nsn": "7025-20-001-3162",
+    "department": "CCM",
+    "local_code": "120-07",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006273",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006273",
+    "nsn": "7025-20-001-3162",
+    "local_code": "120-11",
+    "user_grade": "Capt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1541011659",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1541011659",
+    "nsn": "7025-20-001-3162",
+    "local_code": "120-11",
+    "user_grade": "Capt",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1538002140",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1538002140",
+    "nsn": "7025-20-001-3162",
+    "department": "Salle de Test",
+    "local_code": "120-23",
+    "purchase_price": 775.26,
+    "notes": "bureau 5",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006437",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006437",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006445",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006445",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006446",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006446",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006447",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006447",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006458",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006458",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006657",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006657",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006660",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006660",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006764",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006764",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006810",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006810",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537006851",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537006851",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1537007012",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1537007012",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1538002143",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1538002143",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1538002183",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1538002183",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1538002205",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1538002205",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1538002235",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1538002235",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1538002250",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1538002250",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1538002251",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1538002251",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1538002253",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1538002253",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1541011552",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1541011552",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1541011653",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1541011653",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1541011654",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1541011654",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1541011661",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1541011661",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1541011688",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1541011688",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1541011689",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1541011689",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UHBA1541011790",
+    "name": "Monitor Philips 231P4QPYEB/27",
+    "serial_number": "UHBA1541011790",
+    "nsn": "7025-20-001-3162",
+    "purchase_price": 775.26,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ARM10500053284",
+    "name": "Monitor Philips 24",
+    "serial_number": "ZV01925000558",
+    "nsn": "7025-20-002-1333",
+    "department": "traitement",
+    "local_code": "1-05",
+    "assigned_user": "Gagnon.sp (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 271.57,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL4A0848106632",
+    "name": "Monitor Philips 24",
+    "serial_number": "DL4A0848106632",
+    "nsn": "7025-20-002-1333",
+    "department": "2ieme Etage",
+    "local_code": "2-16",
+    "assigned_user": "Marcoux.j (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 271.57,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ZV01925000563",
+    "name": "Monitor Philips 24",
+    "serial_number": "ZV01925000563",
+    "nsn": "7025-20-002-1333",
+    "department": "Diversité",
+    "local_code": "1-05",
+    "assigned_user": "O'Connor.y (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 271.57,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ZV01925000565",
+    "name": "Monitor Philips 24",
+    "serial_number": "ZV01925000565",
+    "nsn": "7025-20-002-1333",
+    "department": "Salle Personnel Instruction",
+    "local_code": "120-24",
+    "assigned_user": "Position 13",
+    "purchase_price": 271.57,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL4A0848106638",
+    "name": "Monitor Philips 24",
+    "serial_number": "DL4A0848106638",
+    "nsn": "7025-20-002-1333",
+    "department": "Salle Personnel Instruction",
+    "local_code": "120-24",
+    "assigned_user": "Position 2",
+    "purchase_price": 271.57,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ZV01925000566",
+    "name": "Monitor Philips 24",
+    "serial_number": "ZV01925000566",
+    "nsn": "7025-20-002-1333",
+    "department": "2ieme Etage",
+    "local_code": "2-13",
+    "assigned_user": "St-Cyr.y (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 271.57,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ZV01925000567",
+    "name": "Monitor Philips 24",
+    "serial_number": "ZV01925000567",
+    "nsn": "7025-20-002-1333",
+    "department": "2ieme Etage",
+    "local_code": "2-13",
+    "assigned_user": "St-Cyr.y (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 271.57,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL4A0843017422T",
+    "name": "Monitor Philips 24",
+    "serial_number": "DL4A0843017422T",
+    "nsn": "7025-20-002-1333",
+    "purchase_price": 271.57,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL4A0844030460T",
+    "name": "Monitor Philips 24",
+    "serial_number": "DL4A0844030460T",
+    "nsn": "7025-20-002-1333",
+    "purchase_price": 271.57,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL4A0848106623T",
+    "name": "Monitor Philips 24",
+    "serial_number": "DL4A0848106623T",
+    "nsn": "7025-20-002-1333",
+    "purchase_price": 271.57,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL4A0848106624T",
+    "name": "Monitor Philips 24",
+    "serial_number": "DL4A0848106624T",
+    "nsn": "7025-20-002-1333",
+    "purchase_price": 271.57,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL4A0848106631T",
+    "name": "Monitor Philips 24",
+    "serial_number": "DL4A0848106631T",
+    "nsn": "7025-20-002-1333",
+    "purchase_price": 271.57,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UK02438002852",
+    "name": "Monitor Philips 241B8QJEB/27",
+    "serial_number": "UK02438002852",
+    "nsn": "7025-20-002-1333",
+    "department": "EM",
+    "local_code": "2-14",
+    "assigned_user": "Letourneau.A (Civ)",
+    "user_grade": "Civ",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UK02438002857",
+    "name": "Monitor Philips 241B8QJEB/27",
+    "serial_number": "UK02438002857",
+    "nsn": "7025-20-002-1333",
+    "department": "EM",
+    "local_code": "2-14",
+    "assigned_user": "Letourneau.A (Civ)",
+    "user_grade": "Civ",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UK02438002848",
+    "name": "Monitor Philips 241B8QJEB/27",
+    "serial_number": "UK02438002848",
+    "nsn": "7025-20-002-1333",
+    "department": "EM",
+    "local_code": "2-19",
+    "assigned_user": "Moisan.gpl (Capt)",
+    "user_grade": "Capt",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "UK02438002845",
+    "name": "Monitor Philips 241B8QJEB/27",
+    "serial_number": "UK02438002845",
+    "nsn": "7025-20-002-1333",
+    "department": "EM",
+    "local_code": "2-19",
+    "assigned_user": "Moisan.gpl (Capt)",
+    "user_grade": "Capt",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DL3A1150564407",
+    "name": "Monitor Philips 27",
+    "serial_number": "DL3A1150564407",
+    "nsn": "7025-20-002-4536",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DP22HVLQ100403V",
+    "name": "Monitor Samsung 22",
+    "serial_number": "DP22HVLQ100403V",
+    "nsn": "7025-20-002-4536",
+    "purchase_price": 302.89,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "43G1727B0H03721",
+    "name": "Monitor Sharp TV 43",
+    "serial_number": "43G1727B0H03721",
+    "nsn": "7730-20-002-6274",
+    "department": "EM",
+    "local_code": "2-19",
+    "assigned_user": "Moisan.gpl (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 2100.39,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "My Charge power output",
+    "serial_number": "N/A Not Visible",
+    "nsn": "6130-01-641-9737",
+    "department": "Attrac",
+    "local_code": "1-12",
+    "assigned_user": "Labreque.jfk (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 133,
+    "notes": "101",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "My Charge power output",
+    "serial_number": "N/A Not Visible",
+    "nsn": "6130-01-641-9737",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 133,
+    "notes": "156",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "My Charge power output",
+    "serial_number": "N/A Not Visible",
+    "nsn": "6130-01-641-9737",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 133,
+    "notes": "140",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "My Charge power output",
+    "serial_number": "N/A Not Visible",
+    "nsn": "6130-01-641-9737",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 133,
+    "notes": "123",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "My Charge power output",
+    "serial_number": "N/A Not Visible",
+    "nsn": "6130-01-641-9737",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 133,
+    "notes": "122",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "My Charge power output",
+    "serial_number": "N/A Not Visible",
+    "nsn": "6130-01-641-9737",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 133,
+    "notes": "153",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "My Charge power output",
+    "serial_number": "N/A Not Visible",
+    "nsn": "6130-01-641-9737",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 133,
+    "notes": "147",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "My Charge power output",
+    "serial_number": "N/A Not Visible",
+    "nsn": "6130-01-641-9737",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 133,
+    "notes": "129",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "My Charge power output",
+    "serial_number": "N/A Not Visible",
+    "nsn": "6130-01-641-9737",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 133,
+    "notes": "95",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "My Charge power output",
+    "serial_number": "N/A Not Visible",
+    "nsn": "6130-01-641-9737",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 133,
+    "notes": "93",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "My Charge power output",
+    "serial_number": "N/A Not Visible",
+    "nsn": "6130-01-641-9737",
+    "department": "salle informatique",
+    "local_code": "120-25",
+    "purchase_price": 133,
+    "notes": "136",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "4000974",
+    "name": "Nikkon D5",
+    "serial_number": "4000974",
+    "nsn": "6720-20-009-5963",
+    "department": "Attrac",
+    "assigned_user": "Cabinet",
+    "purchase_price": 6477.29,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "5012496",
+    "name": "Nikkon D90 Camera",
+    "serial_number": "5012496",
+    "nsn": "6720-66-157-9018",
+    "department": "Traitement",
+    "local_code": "Cabinet",
+    "purchase_price": 1449.95,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "1KF76AA",
+    "name": "OMEN HP Headset/Microphone 800",
+    "serial_number": "1KF76AA",
+    "nsn": "5965-20-A0U-2258",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 69.99,
+    "notes": "Montreal",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "7CH83Q7Z",
+    "name": "OMEN HP Headset/Microphone 800",
+    "serial_number": "7CH83Q7Z",
+    "nsn": "5965-20-A0U-2258",
+    "local_code": "QM",
+    "purchase_price": 69.99,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "CNDYC26741",
+    "name": "Printer Laser HP P4015",
+    "serial_number": "CNDYC26741",
+    "nsn": "7025-01-573-3946",
+    "department": "CCM",
+    "purchase_price": 2079,
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Z60XBJZCC00037",
+    "name": "Printer Laser Samsung ML5512ND",
+    "serial_number": "Z60XBJZCC00037",
+    "nsn": "7025-01-500-7527",
+    "local_code": "M331B",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "DPX360946",
+    "name": "Printer Laser Xerox Doc.Comp.PHASER6180",
+    "serial_number": "DPX360946",
+    "nsn": "7025-01-558-9795",
+    "notes": "Pas sr DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "PDWB600917SU0T",
+    "name": "Projector BENQ MP620",
+    "serial_number": "PDWB600917SU0T",
+    "nsn": "6730-20-002-5865",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "PDMA700062SU0T",
+    "name": "Projector BENQ MP622",
+    "serial_number": "PDMA700062SU0T",
+    "nsn": "6730-13-120-3114",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "PDV8700312SU0T",
+    "name": "Projector BENQ MP622",
+    "serial_number": "PDV8700312SU0T",
+    "nsn": "6730-13-120-3114",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "M99F9X0320L",
+    "name": "Projector Epson PowerElite 1716",
+    "serial_number": "M99F9X0320L",
+    "nsn": "6730-01-582-0821",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 1399,
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "M99F9X0342L",
+    "name": "Projector Epson PowerElite 1716",
+    "serial_number": "M99F9X0342L",
+    "nsn": "6730-01-582-0821",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "NNAF190061L",
+    "name": "Projector Epson PowerElite 1750",
+    "serial_number": "NNAF190061L",
+    "nsn": "6730-01-594-3810",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 815,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "F6LU00441",
+    "name": "Projector Hitachi CP-X1",
+    "serial_number": "F6LU00441",
+    "nsn": "6730-20-003-6853",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "BRNC54000038",
+    "name": "Projector INFocus IN1142",
+    "serial_number": "BRNC54000038",
+    "nsn": "6730-01-664-4829",
+    "department": "Attrac",
+    "local_code": "1-11",
+    "assigned_user": "Garant.cjms (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 461.33,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "BRNC54400038",
+    "name": "Projector INFocus IN1142",
+    "serial_number": "BRNC54400038",
+    "nsn": "6730-01-664-4829",
+    "department": "Attrac",
+    "local_code": "1-12",
+    "assigned_user": "Labreque.jfk (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 461.33,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "BRNC54400004",
+    "name": "Projector INFocus IN1142",
+    "serial_number": "BRNC54400004",
+    "nsn": "6730-01-664-4829",
+    "department": "Diversité",
+    "local_code": "120-25",
+    "assigned_user": "O'connor (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 461.33,
+    "notes": "salle informatique",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "AVGV733A0407",
+    "name": "Projector Infocus IN34EP",
+    "serial_number": "AVGV733A0407",
+    "nsn": "6730-01-562-9026",
+    "notes": "Pas Sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "AVGV733A0473",
+    "name": "Projector Infocus IN34EP",
+    "serial_number": "AVGV733A0473",
+    "nsn": "6730-01-562-9026",
+    "notes": "Pas Sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "AWLB80300345",
+    "name": "Projector Infocus IN35",
+    "serial_number": "AWLB80300345",
+    "nsn": "6730-01-567-1619",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "AALN35290036",
+    "name": "Projector Infocus LP500",
+    "serial_number": "AALN35290036",
+    "nsn": "6730-21-921-6688",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "AWLB83300108",
+    "name": "Projector InfocusIN35",
+    "serial_number": "AWLB83300108",
+    "nsn": "6730-01-567-1619",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "AWLB84200355",
+    "name": "Projector InfocusIN35",
+    "serial_number": "AWLB84200355",
+    "nsn": "6730-01-567-1619",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "AALN30990417",
+    "name": "Projector InfocusLP500",
+    "serial_number": "AALN30990417",
+    "nsn": "6730-21-921-6688",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "3100079NB",
+    "name": "Projector NecComputerCorp LT158",
+    "serial_number": "3100079NB",
+    "nsn": "6730-01-510-1916",
+    "purchase_price": 6090,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "9Y00152FC",
+    "name": "Projector NecComputerCorpNP2250",
+    "serial_number": "9Y00152FC",
+    "nsn": "6730-01-485-2384",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 6990,
+    "notes": "Pas Sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "RL5F530649L",
+    "name": "Projector Power Light 1940W Epson",
+    "serial_number": "RL5F530649L",
+    "nsn": "6730-20-009-0488",
+    "department": "Salle d'Assermentation",
+    "purchase_price": 1718.91,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ARM10500054293",
+    "name": "Samsung Printer CLP-775ND",
+    "nsn": "7025-20-008-7969",
+    "department": "2ieme Etage",
+    "purchase_price": 736.83,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "8407340887",
+    "name": "Scanner Eclipse MS5145",
+    "serial_number": "8407340887",
+    "nsn": "7025-20-A02-2740",
+    "purchase_price": 268.92,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "AM7D303001",
+    "name": "Scanner Fujitsu FI-7140",
+    "serial_number": "AM7D303001",
+    "nsn": "7025-20-009-4533",
+    "department": "Medic",
+    "local_code": "120-15",
+    "assigned_user": "Belisle.j (Avr)",
+    "user_grade": "Avr",
+    "purchase_price": 672.03,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ARM10500054302",
+    "name": "Scanner Fujitsu Fi-7140",
+    "serial_number": "AM7D306500",
+    "nsn": "7025-20-009-4533",
+    "department": "Medic",
+    "local_code": "120-14",
+    "purchase_price": 672.03,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "AM7D306491",
+    "name": "Scanner Fujitsu FI-7140",
+    "serial_number": "AM7D306491",
+    "nsn": "7025-20-009-4533",
+    "department": "Medic",
+    "local_code": "120-16",
+    "purchase_price": 672.03,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "AM7D306500",
+    "name": "Scanner Fujitsu FI-7140",
+    "serial_number": "AM7D306500",
+    "nsn": "7025-20-009-4533",
+    "department": "Medic",
+    "local_code": "120-17",
+    "purchase_price": 672.03,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "SG42K1102X",
+    "name": "Scanner HP 7500",
+    "serial_number": "SG42K1102X",
+    "nsn": "7025-01-594-4922",
+    "department": "Traitement",
+    "local_code": "1-20",
+    "assigned_user": "Courcy.d (civ)",
+    "user_grade": "civ",
+    "purchase_price": 948.16,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "SG7811102Z",
+    "name": "Scanner HP 7500",
+    "serial_number": "SG7811102Z",
+    "nsn": "7025-01-594-4922",
+    "department": "2ieme Etage",
+    "local_code": "2-12",
+    "assigned_user": "Trudel-Mongrain.j (Cpl)",
+    "user_grade": "Cpl",
+    "purchase_price": 948.16,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "SG42K1102P",
+    "name": "Scanner HP 7500",
+    "serial_number": "SG42K1102P",
+    "nsn": "7025-01-594-4922",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 948.16,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "SG7811102R",
+    "name": "Scanner HP 7500",
+    "serial_number": "SG7811102R",
+    "nsn": "7025-01-594-4922",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 948.16,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "42978198",
+    "name": "Scanner Kodak 140",
+    "serial_number": "42978198",
+    "nsn": "7025-01-547-8800",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "46139905",
+    "name": "Scanner Kodak 140",
+    "serial_number": "46139905",
+    "nsn": "7025-01-547-8800",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "67565708",
+    "name": "Scanner Kodak Alaris S2040",
+    "serial_number": "67565708",
+    "nsn": "7025-01-690-3003",
+    "department": "Traitement",
+    "local_code": "1-19",
+    "assigned_user": "Garneau.n (civ)",
+    "user_grade": "civ",
+    "purchase_price": 564.72,
+    "notes": "Voir  DA A0LE",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "2H1VK11",
+    "name": "Server Dell Comp.Corp.poweredGE2500",
+    "serial_number": "2H1VK11",
+    "nsn": "7035-21-920-6752",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "4K6SL21",
+    "name": "Server Dell Comp.Corp.poweredGE2600",
+    "serial_number": "4K6SL21",
+    "nsn": "7035-21-920-6751",
+    "notes": "Pas sur DA DRMS",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "1809GG00KB58",
+    "name": "Speaker Logitech X300",
+    "serial_number": "1809GG00KB58",
+    "nsn": "5965-20-008-8478",
+    "department": "Attrac",
+    "local_code": "1-12",
+    "assigned_user": "Labreque.jfk (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 66.99,
+    "notes": "101",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "Speaker Logitech X300",
+    "serial_number": "N/A Not Visible",
+    "nsn": "5965-20-008-8478",
+    "department": "Diversité",
+    "local_code": "120-25",
+    "assigned_user": "O'Connor (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 66.99,
+    "notes": "136",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "1445GG116748",
+    "name": "Speaker Logitech X300",
+    "serial_number": "1445GG116748",
+    "nsn": "5965-20-008-8478",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 66.99,
+    "notes": "156",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "1445GG12181",
+    "name": "Speaker Logitech X300",
+    "serial_number": "1445GG12181",
+    "nsn": "5965-20-008-8478",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 66.99,
+    "notes": "129",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "1445GG128518",
+    "name": "Speaker Logitech X300",
+    "serial_number": "1445GG128518",
+    "nsn": "5965-20-008-8478",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 66.99,
+    "notes": "95",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "Speaker Logitech X300",
+    "serial_number": "N/A Not Visible",
+    "nsn": "5965-20-008-8478",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 66.99,
+    "notes": "153",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "Speaker Logitech X300",
+    "serial_number": "N/A Not Visible",
+    "nsn": "5965-20-008-8478",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 66.99,
+    "notes": "133",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "Speaker Logitech X300",
+    "serial_number": "N/A Not Visible",
+    "nsn": "5965-20-008-8478",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 66.99,
+    "notes": "93",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "Speaker Logitech X300",
+    "serial_number": "N/A Not Visible",
+    "nsn": "5965-20-008-8478",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 66.99,
+    "notes": "140",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "Speaker Logitech X300",
+    "serial_number": "N/A Not Visible",
+    "nsn": "5965-20-008-8478",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 66.99,
+    "notes": "115",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "Speaker Logitech X300",
+    "serial_number": "N/A Not Visible",
+    "nsn": "5965-20-008-8478",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 66.99,
+    "notes": "101",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "Speaker Logitech X300",
+    "serial_number": "N/A Not Visible",
+    "nsn": "5965-20-008-8478",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 66.99,
+    "notes": "122",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "N/A Not Visible",
+    "name": "Speaker Logitech X300",
+    "serial_number": "N/A Not Visible",
+    "nsn": "5965-20-008-8478",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 66.99,
+    "notes": "123",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "8CG50704BT",
+    "name": "Tablet HP Revolve 810",
+    "serial_number": "8CG50704BT",
+    "nsn": "7010-20-008-4296",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 1356.6,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "EA4C025K",
+    "name": "ThinkPad 10` Inch Z3795",
+    "serial_number": "EA4C025K",
+    "nsn": "7010-20-008-8486",
+    "purchase_price": 715.5,
+    "notes": "Sherbrook",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "EA4B01DD",
+    "name": "ThinkPad 10` Inch Z3795",
+    "serial_number": "EA4B01DD",
+    "nsn": "7010-20-008-8486",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 715.5,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "EA4B01DG",
+    "name": "ThinkPad 10` Inch Z3795",
+    "serial_number": "EA4B01DG",
+    "nsn": "7010-20-008-8486",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 715.5,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "EA4C0253",
+    "name": "ThinkPad 10` Inch Z3795",
+    "serial_number": "EA4C0253",
+    "nsn": "7010-20-008-8486",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 715.5,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "EA4C025W",
+    "name": "ThinkPad 10` Inch Z3795",
+    "serial_number": "EA4C025W",
+    "nsn": "7010-20-008-8486",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 715.5,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "EA4C0273",
+    "name": "ThinkPad 10` Inch Z3795",
+    "serial_number": "EA4C0273",
+    "nsn": "7010-20-008-8486",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 715.5,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "EA4C027A",
+    "name": "ThinkPad 10` Inch Z3795",
+    "serial_number": "EA4C027A",
+    "nsn": "7010-20-008-8486",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 715.5,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "EA4C028V",
+    "name": "ThinkPad 10` Inch Z3795",
+    "serial_number": "EA4C028V",
+    "nsn": "7010-20-008-8486",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 715.5,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "EA4C035L",
+    "name": "ThinkPad 10` Inch Z3795",
+    "serial_number": "EA4C035L",
+    "nsn": "7010-20-008-8486",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 715.5,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "EA4C036E",
+    "name": "ThinkPad 10` Inch Z3795",
+    "serial_number": "EA4C036E",
+    "nsn": "7010-20-008-8486",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 715.5,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "EA4C036T",
+    "name": "ThinkPad 10` Inch Z3795",
+    "serial_number": "EA4C036T",
+    "nsn": "7010-20-008-8486",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 715.5,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "EA4C036W",
+    "name": "ThinkPad 10` Inch Z3795",
+    "serial_number": "EA4C036W",
+    "nsn": "7010-20-008-8486",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 715.5,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "EA4C038F",
+    "name": "ThinkPad 10` Inch Z3795",
+    "serial_number": "EA4C038F",
+    "nsn": "7010-20-008-8486",
+    "department": "Salle Informatique",
+    "local_code": "120-25",
+    "purchase_price": 715.5,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "TAG-478",
+    "name": "ThinkPad 10` Inch Z3795",
+    "nsn": "7010-20-008-8486",
+    "purchase_price": 715.5,
+    "notes": "Sherbrook",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "4B1233P59955",
+    "name": "UPS Battery Pack",
+    "serial_number": "4B1233P59955",
+    "nsn": "6130-20-A0B-2255",
+    "department": "Salle de Test",
+    "purchase_price": 59.99,
+    "notes": "salle informatique",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "4B1233P59961",
+    "name": "UPS Battery Pack",
+    "serial_number": "4B1233P59961",
+    "nsn": "6130-20-A0B-2255",
+    "department": "Salle de Test",
+    "purchase_price": 59.99,
+    "notes": "salle informatique",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "4B1233P60105",
+    "name": "UPS Battery Pack",
+    "serial_number": "4B1233P60105",
+    "nsn": "6130-20-A0B-2255",
+    "department": "Salle de Test",
+    "purchase_price": 59.99,
+    "notes": "salle informatique",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "4B1233P60132",
+    "name": "UPS Battery Pack",
+    "serial_number": "4B1233P60132",
+    "nsn": "6130-20-A0B-2255",
+    "department": "Salle de Test",
+    "purchase_price": 59.99,
+    "notes": "salle informatique",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "4B1233P60138",
+    "name": "UPS Battery Pack",
+    "serial_number": "4B1233P60138",
+    "nsn": "6130-20-A0B-2255",
+    "department": "Salle de Test",
+    "purchase_price": 59.99,
+    "notes": "salle informatique",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "4B1233P60129",
+    "name": "UPS Battery Pack",
+    "serial_number": "4B1233P60129",
+    "nsn": "6130-20-A0B-2255",
+    "department": "Salle Personnel Instruction",
+    "local_code": "120-24",
+    "purchase_price": 59.99,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "4B1233P60332",
+    "name": "UPS Battery Pack",
+    "serial_number": "4B1233P60332",
+    "nsn": "6130-20-A0B-2255",
+    "department": "Salle Personnel Instruction",
+    "local_code": "120-24",
+    "purchase_price": 59.99,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "4B1233P60502",
+    "name": "UPS Battery Pack",
+    "serial_number": "4B1233P60502",
+    "nsn": "6130-20-A0B-2255",
+    "department": "Salle Personnel Instruction",
+    "local_code": "120-24",
+    "purchase_price": 59.99,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "4B1233P59951",
+    "name": "UPS Battery Pack",
+    "serial_number": "4B1233P59951",
+    "nsn": "6130-20-A0B-2255",
+    "department": "Attrac",
+    "purchase_price": 59.99,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "4B1633P38477",
+    "name": "UPS Battery Pack",
+    "serial_number": "4B1633P38477",
+    "nsn": "6130-20-A0B-2255",
+    "department": "Attrac",
+    "purchase_price": 59.99,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "4B1206P40090",
+    "name": "UPS Battery Pack",
+    "serial_number": "4B1206P40090",
+    "nsn": "6130-20-A0B-2255",
+    "department": "Salle de Test",
+    "purchase_price": 59.99,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "4B1206P40091",
+    "name": "UPS Battery Pack",
+    "serial_number": "4B1206P40091",
+    "nsn": "6130-20-A0B-2255",
+    "department": "Salle de Test",
+    "purchase_price": 59.99,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "4B1233P60103",
+    "name": "UPS Battery Pack",
+    "serial_number": "4B1233P60103",
+    "nsn": "6130-20-A0B-2255",
+    "department": "Salle de Test",
+    "purchase_price": 59.99,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "4B1233P61012",
+    "name": "UPS Battery Pack",
+    "serial_number": "4B1233P61012",
+    "nsn": "6130-20-A0B-2255",
+    "department": "Salle de Test",
+    "purchase_price": 59.99,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "0204501652032",
+    "name": "Web Cam",
+    "serial_number": "0204501652032",
+    "nsn": "6720-20-006-5327",
+    "department": "CCM",
+    "local_code": "120-08",
+    "assigned_user": "Charette.jbp (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 81.39,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "0204501651919",
+    "name": "Web Cam",
+    "serial_number": "0204501651919",
+    "nsn": "6720-20-006-5327",
+    "department": "Attrac",
+    "local_code": "1-05",
+    "assigned_user": "Gagnon.sp (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 81.39,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "0204501651923",
+    "name": "Web Cam",
+    "serial_number": "0204501651923",
+    "nsn": "6720-20-006-5327",
+    "department": "Attrac",
+    "local_code": "1-11",
+    "assigned_user": "Garant.cjms (Sgt)",
+    "user_grade": "Sgt",
+    "purchase_price": 81.39,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "0204501651921",
+    "name": "Web Cam",
+    "serial_number": "0204501651921",
+    "nsn": "6720-20-006-5327",
+    "department": "2ieme Etage",
+    "local_code": "2-19",
+    "assigned_user": "Moisan.gpl (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 81.39,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "0204501652030",
+    "name": "Web Cam",
+    "serial_number": "0204501652030",
+    "nsn": "6720-20-006-5327",
+    "department": "2ieme Etage",
+    "local_code": "2-13",
+    "assigned_user": "St-Cyr.y (Capt)",
+    "user_grade": "Capt",
+    "purchase_price": 81.39,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "AUTOMATED DEFIBRILLATOR",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "6515-20-A0E-3192",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "AUTOMATED DEFIBRILLATOR",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "6515-20-A0E-3192",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "FLAGSTAFF\"",
+    "name": "\"BASE",
+    "hostname": "STAND",
+    "nsn": "8345-21-853-5567",
+    "user_grade": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "FLAGSTAFF\"",
+    "name": "\"BASE",
+    "hostname": "STAND",
+    "nsn": "8345-21-853-5567",
+    "user_grade": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CAMERA CYBERSHOT 7.2 SONY",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "7350184",
+    "nsn": "6720-20-A04-6579",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CANADIAN MILITARY JOURNAL VOL. 23 NO. 3",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7610-20-A0Z-1121",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CANADIAN MILITARY JOURNAL VOL. 23 NO. 3",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7610-20-A0Z-1121",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CF18 MOD BLACK CANOPY",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "6910-21-AAN-5572",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CHARIOT A BRAS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "3920-21-551-2010",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8688",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8688",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8688",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8688",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8688",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8688",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8688",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8688",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8688",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8688",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8688",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8688",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8688",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8688",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS BEIGE",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8689",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS BEIGE",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8689",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS BEIGE",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8689",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS BEIGE",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8689",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS BEIGE",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8689",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS BEIGE",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8689",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS BEIGE",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8689",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS BEIGE",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8689",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "CLASSEUR A TIROIRS BEIGE",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-911-8689",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "COFFRE-FORT",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-21-868-3557",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "DDH280 CLASSEUR VAR SCALE",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "6910-21-AAN-5578",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "DICTAPHONE MODEL D2",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7450-21-AAC-8240",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "ECRAN DE TV 49LF5400 LG",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "5980-01-652-8099",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "ECRAN DE TV 49LF5400 LG",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "5980-01-652-8099",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "\"ECRAN",
+    "serial_number": "Quebec",
+    "hostname": "PROJECTION\"",
+    "nsn": "6730-21-809-7894",
+    "department": "Ouellet",
+    "local_code": "Sgt",
+    "assigned_user": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "\"ECRAN",
+    "serial_number": "Quebec",
+    "hostname": "PROJECTION\"",
+    "nsn": "6730-21-809-7894",
+    "assigned_user": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "GLOBE MASTER C-17 MOCK-UP ARTEFACT",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "9915-20-A0F-5429",
+    "department": "Capt",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "GLOBE MASTER C-17 MOCK-UP ARTEFACT",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "9915-20-A0F-5429",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "GPS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "5825-01-617-5102",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "GPS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "5825-01-617-5102",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "GPS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "5825-01-617-5102",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "GPS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "5825-01-617-5102",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "GPS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "5825-01-617-5102",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "GPS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "5825-01-617-5102",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "HAMPE FLAGSTAFF",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "8345-21-853-5568",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "HAMPE FLAGSTAFF",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "8345-21-853-5568",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "HAMPE FLAGSTAFF",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "8345-21-853-5568",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "HAMPE FLAGSTAFF",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "8345-21-853-5568",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "HONOURS & RECOGNITION BOOK",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7610-20-A0Z-3662",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "HONOURS & RECOGNITION BOOK",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7610-20-A0Z-3662",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "ETIQUETTE\"",
+    "name": "\"IMPRIMANTE",
+    "hostname": "TRAITEMENT AUTO",
+    "nsn": "7025-01-544-3632",
+    "user_grade": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7490-01-547-3860",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7490-01-547-3860",
+    "local_code": "Missing/Manquant",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "2300854",
+    "nsn": "7490-01-547-3860",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "2250507",
+    "nsn": "7490-01-547-3860",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "2779268",
+    "nsn": "7490-01-547-3860",
+    "department": "Cpl",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "2779271",
+    "nsn": "7490-01-547-3860",
+    "department": "Avr",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "2779272",
+    "nsn": "7490-01-547-3860",
+    "department": "Cpl",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "2B9064",
+    "nsn": "7490-01-547-3860",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "2379002",
+    "nsn": "7490-01-547-3860",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "2G57145",
+    "nsn": "7490-01-547-3860",
+    "department": "Cpl",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "2615926",
+    "nsn": "7490-01-547-3860",
+    "department": "Cpl",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "2G03594",
+    "nsn": "7490-01-547-3860",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "QE2480781680B",
+    "nsn": "7490-01-547-3860",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "2G03589",
+    "nsn": "7490-01-547-3860",
+    "department": "Cpl",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "2G03343",
+    "nsn": "7490-01-547-3860",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "2G55815",
+    "nsn": "7490-01-547-3860",
+    "department": "Cpl",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "2G03595",
+    "nsn": "7490-01-547-3860",
+    "department": "Cpl",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "2G34184",
+    "nsn": "7490-01-547-3860",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "2684703",
+    "nsn": "7490-01-547-3860",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "LABELWRITER 400 DYMO",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7490-01-547-3860",
+    "local_code": "Missing/Manquant",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "MANNEQUIN MALE",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "9905-21-AAD-3796",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "METAL DETECTOR",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "6350-01-520-7353",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "METAL DETECTOR",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "6350-01-520-7353",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "METAL DETECTOR",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "6350-01-520-7353",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "MICROWAVE OVEN",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7310-21-AAE-2498",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "MICROWAVE OVEN",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7310-21-AAE-2498",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "MICROWAVE OVEN",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7310-21-AAE-2498",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "\"MIROIR",
+    "serial_number": "Quebec",
+    "hostname": "INSPECTION\"",
+    "nsn": "5120-01-399-9301",
+    "assigned_user": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "\"MIROIR",
+    "serial_number": "Quebec",
+    "hostname": "INSPECTION\"",
+    "nsn": "5120-01-399-9301",
+    "assigned_user": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "\"MIROIR",
+    "serial_number": "Quebec",
+    "hostname": "INSPECTION\"",
+    "nsn": "5120-01-399-9301",
+    "assigned_user": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "\"MIROIR",
+    "serial_number": "Quebec",
+    "hostname": "INSPECTION\"",
+    "nsn": "5120-01-399-9301",
+    "assigned_user": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "MULTI-MEDIA CABINETS",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "7110-20-006-4624",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "PHYSICIAN SCALE 350 LB",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "5280-20-A0U-3142",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "REFRIGERATOR",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "4110-21-AAB-0317",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "REFRIGERATOR",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "4110-21-AAB-0317",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "REFRIGERATOR",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "4110-21-AAB-0317",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "Scanner Kodak Alaris S2040",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "67565701",
+    "nsn": "7025-01-690-3003",
+    "department": "Cpl",
+    "local_code": "Verifié",
+    "assigned_user": "Voir DA A0LF",
+    "notes": "Voir DA A0LF",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "Scanner Kodak Alaris S2040",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "67565511",
+    "nsn": "7025-01-690-3003",
+    "local_code": "Verifié",
+    "assigned_user": "Voir DA A0LF",
+    "notes": "Voir DA A0LF",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "Scanner Kodak Alaris S2040",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "67565704",
+    "nsn": "7025-01-690-3003",
+    "local_code": "Verifié",
+    "assigned_user": "Voir DA A0LF",
+    "notes": "Voir DA A0LF",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "Scanner Kodak Alaris S2040",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "67565697",
+    "nsn": "7025-01-690-3003",
+    "local_code": "Verifié",
+    "assigned_user": "Voir DA A0LF",
+    "notes": "Voir DA A0LF",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "Scanner Kodak Alaris S2040",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "67562396",
+    "nsn": "7025-01-690-3003",
+    "department": "Cpl",
+    "local_code": "Verifié",
+    "assigned_user": "Voir DA A0LF",
+    "notes": "Voir DA A0LF",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "Scanner Kodak Alaris S2040",
+    "serial_number": "2575 Rue Ste-Anne",
+    "hostname": "67565708",
+    "nsn": "7025-01-690-3003",
+    "local_code": "Verifié",
+    "assigned_user": "Voir DA A0LF",
+    "notes": "Voir DA A0LF",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "MULTI",
+    "name": "\"STAND",
+    "serial_number": "PORTABLE\"",
+    "hostname": "MODULAR",
+    "nsn": "5340-20-A06-4605",
+    "purchase_price": 2101.6,
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "Quebec",
+    "name": "TRANSPORT CASE BLACK",
+    "serial_number": "2575 Rue Ste-Anne",
+    "nsn": "8145-01-582-0735",
+    "local_code": "Verifié",
+    "status": "en_service"
+  },
+  {
+    "asset_tag": "TUNIC\"",
+    "name": "\"VESTE",
+    "hostname": "HOMME",
+    "nsn": "8405-20-002-0128",
+    "user_grade": "Verifié",
+    "status": "en_service"
+  }
+]
