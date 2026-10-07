@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: './', // Assure le bon chargement des assets sur GitHub Pages
+  base: '/',
 })
