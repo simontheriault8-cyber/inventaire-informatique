@@ -182,16 +182,28 @@ export const FloorPlanViewer: React.FC<FloorPlanViewerProps> = ({
       if (file.type === 'application/pdf') {
         imageUrl = await convertPdfPageToImage(file, 1);
       } else {
-        imageUrl = URL.createObjectURL(file);
+        // Conversion de l'image en Base64 Data URL pour persistance fiable
+        imageUrl = await new Promise<string>((resolve, reject) => {
+          const reader = new FileReader();
+          reader.onload = () => resolve(reader.result as string);
+          reader.onerror = reject;
+          reader.readAsDataURL(file);
+        });
       }
 
-      await addFloor({
+      const createdFloor = await addFloor({
         name: file.name.replace(/\.[^/.]+$/, ''),
         floor_number: floors.length + 1,
         plan_image_url: imageUrl,
       });
-    } catch (err) {
+
+      if (createdFloor && createdFloor.id) {
+        setCurrentFloorId(createdFloor.id);
+      }
+      alert(`Le plan "${file.name}" a été ajouté et affiché avec succès !`);
+    } catch (err: any) {
       console.error('Erreur import plan:', err);
+      alert('Erreur lors de l\'ajout du plan : ' + (err?.message || 'Erreur inconnue'));
     } finally {
       setUploadingPlan(false);
       if (fileInputRef.current) fileInputRef.current.value = '';
@@ -221,6 +233,31 @@ export const FloorPlanViewer: React.FC<FloorPlanViewerProps> = ({
             </button>
           )}
         </div>
+
+        {/* Center: Floor Switcher */}
+        {floors.length > 0 && (
+          <div className="pointer-events-auto flex items-center space-x-1.5 bg-slate-900/90 backdrop-blur-md p-1.5 rounded-2xl border border-slate-800 shadow-xl overflow-x-auto">
+            <span className="text-[11px] font-bold text-slate-400 px-2 flex items-center shrink-0">
+              <Layers className="w-3.5 h-3.5 mr-1 text-emerald-400" />
+              Plan :
+            </span>
+            <div className="flex items-center space-x-1">
+              {floors.map((fl) => (
+                <button
+                  key={fl.id}
+                  onClick={() => setCurrentFloorId(fl.id)}
+                  className={`px-3 py-1.5 text-xs font-semibold rounded-xl transition shrink-0 ${
+                    currentFloor?.id === fl.id
+                      ? 'bg-emerald-500 text-slate-950 font-bold shadow-md shadow-emerald-500/20'
+                      : 'text-slate-300 hover:text-white hover:bg-slate-800'
+                  }`}
+                >
+                  {fl.name}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Right: Mode Toggle & Plan Upload */}
         <div className="pointer-events-auto flex items-center space-x-2 bg-slate-900/90 backdrop-blur-md p-1.5 rounded-2xl border border-slate-800 shadow-xl">

@@ -9,11 +9,18 @@ import {
   ArrowRight,
   Database,
   Layers,
-  MapPin
+  MapPin,
+  Check,
+  Filter
 } from 'lucide-react';
 import * as XLSX from 'xlsx';
 import confetti from 'canvas-confetti';
 import { useInventory } from '../../lib/useInventoryStore';
+
+interface SheetInfo {
+  name: string;
+  rows: any[];
+}
 
 export const ExcelImportView: React.FC = () => {
   const { importBatch, seedOfficialData, assets, spaces } = useInventory();
@@ -21,6 +28,8 @@ export const ExcelImportView: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const [successCount, setSuccessCount] = useState<number | null>(null);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
+  const [workbookSheets, setWorkbookSheets] = useState<SheetInfo[]>([]);
+  const [selectedSheetName, setSelectedSheetName] = useState<string>('ALL');
   const [previewRows, setPreviewRows] = useState<any[]>([]);
   const [googleSheetUrl, setGoogleSheetUrl] = useState('');
   const [autoCreateSpaces, setAutoCreateSpaces] = useState(true);
@@ -32,6 +41,7 @@ export const ExcelImportView: React.FC = () => {
     if (confirm('Voulez-vous charger l\'inventaire officiel DA AOLF & AOLE (497 matériels et 54 bureaux pré-cartographiés) ?')) {
       setLoading(true);
       setErrorMsg(null);
+      setSuccessCount(null);
       try {
         await seedOfficialData();
         confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
@@ -81,37 +91,217 @@ export const ExcelImportView: React.FC = () => {
     XLSX.writeFile(wb, 'modele_import_inventaire_it.xlsx');
   };
 
+  // Détecte la véritable ligne d'en-tête et normalise les données
+  function detectHeadersAndParseSheet(ws: XLSX.WorkSheet, sheetName: string): any[] {
+    const matrix = XLSX.utils.sheet_to_json(ws, { header: 1, defval: '' }) as any[][];
+    if (!matrix || matrix.length === 0) return [];
+
+    const keywords = [
+      'nsn', 'nom du produit', 'description', 'produit', 'ordinateur', 'hostname',
+      "numéro d'inventaire", "numero d'inventaire", 'inventaire', 'asset tag', 'tag',
+      "numéro de série", "numero de serie", 'série', 'serie', 'ns #', 's/n', 'serial',
+      'local', 'bureau', 'section', 'nom', 'grade', 'prix', 'actions', 'commentaires'
+    ];
+
+    let headerRowIdx = -1;
+    let maxScore = 0;
+
+    // Scan des 25 premières lignes pour trouver la rangée avec le plus de colonnes connues
+    for (let r = 0; r < Math.min(25, matrix.length); r++) {
+      const row = matrix[r] || [];
+      let score = 0;
+      for (const cell of row) {
+        const cellStr = String(cell).toLowerCase().trim();
+        if (keywords.some((kw) => cellStr.includes(kw))) {
+          score++;
+        }
+      }
+      if (score > maxScore && score >= 2) {
+        maxScore = score;
+        headerRowIdx = r;
+      }
+    }
+
+    if (headerRowIdx === -1) headerRowIdx = 0;
+
+    const headerRow = matrix[headerRowIdx] || [];
+    const headers = headerRow.map((h) => String(h || '').trim());
+
+    const parsedRows: any[] = [];
+    for (let r = headerRowIdx + 1; r < matrix.length; r++) {
+      const row = matrix[r] || [];
+      const rowObj: Record<string, any> = {};
+      let hasValue = false;
+      for (let c = 0; c < headers.length; c++) {
+        const h = headers[c];
+        if (h) {
+          rowObj[h] = row[c];
+          if (row[c] !== undefined && row[c] !== null && String(row[c]).trim() !== '') {
+            hasValue = true;
+          }
+        }
+      }
+      if (hasValue) {
+        const normalized = normalizeRow(rowObj, sheetName);
+        if (normalized) {
+          parsedRows.push(normalized);
+        }
+      }
+    }
+
+    return parsedRows;
+  }
+
+  // Normalisation intelligente avec désambiguïsation
+  function normalizeRow(row: Record<string, any>, sheetName?: string) {
+    const keys = Object.keys(row);
+
+    const findValue = (candidates: string[]) => {
+      // 1. Recherche par correspondance exacte (insensible à la casse)
+      for (const cand of candidates) {
+        for (const k of keys) {
+          if (k.trim().toLowerCase() === cand.toLowerCase()) {
+            const val = row[k];
+            if (val !== undefined && val !== null && String(val).trim() !== '') {
+              return String(val).trim();
+            }
+          }
+        }
+      }
+      // 2. Recherche par sous-chaîne
+      for (const cand of candidates) {
+        for (const k of keys) {
+          const cleanK = k.trim().toLowerCase();
+          if (cleanK.includes(cand.toLowerCase())) {
+            const val = row[k];
+            if (val !== undefined && val !== null && String(val).trim() !== '') {
+              return String(val).trim();
+            }
+          }
+        }
+      }
+      return undefined;
+    };
+
+    // 1. Nom de l'équipement
+    let name = findValue(['nom du produit', 'description', 'produit', 'modèle', 'modele', 'designation', 'désignation', 'item', 'equipment']);
+
+    // 2. Hostname / Nom PC
+    const hostname = findValue(["nom de l'ordinateur", "nom de l'ordi", 'nom pc', 'hostname', 'computer name', 'nom machine']);
+
+    // 3. Utilisateur assigné (attention : ne pas confondre avec Nom Produit)
+    let assigned_user: string | undefined = undefined;
+    const rawNom = findValue(["nom de l'employé", 'utilisateur', 'employé', 'personne', 'assigné à', 'détenteur']);
+    if (rawNom) {
+      assigned_user = rawNom;
+    } else {
+      const exactNomKey = keys.find((k) => k.trim().toLowerCase() === 'nom');
+      if (exactNomKey && row[exactNomKey]) {
+        const val = String(row[exactNomKey]).trim();
+        if (val) assigned_user = val;
+      }
+    }
+
+    // 4. Numéros d'inventaire et de série
+    const tag = findValue(["numéro d'inventaire", "numero d'inventaire", 'no inventaire', 'asset tag', 'inventaire', 'code barre', 'barcode', 'tag']);
+    const serial = findValue(["numéro de série", "numero de serie", 'no série', 'no serie', 'ns #', 's/n', 'serial', 'sn', 'service tag']);
+    const nsn = findValue(['nsn', 'nomenclature']);
+    const local = findValue(['local', 'bureau', 'pièce', 'piece', 'salle', 'cubicule', 'office', 'room']);
+    const department = findValue(['section', 'département', 'departement', 'service', 'division', 'direction']);
+    const grade = findValue(['grade', 'rang', 'titre']);
+
+    // 5. Prix
+    const priceRaw = findValue(['prix', 'cout', 'coût', 'valeur', 'cost', 'price']);
+    let purchase_price: number | undefined = undefined;
+    if (priceRaw) {
+      const cleanNum = parseFloat(String(priceRaw).replace(/[^0-9.,]/g, '').replace(',', '.'));
+      if (!isNaN(cleanNum)) purchase_price = cleanNum;
+    }
+
+    // 6. Notes et actions
+    const notes = findValue(['actions', 'action', 'commentaires', 'commentaire', 'remarques', 'remarque', 'notes', 'note']);
+
+    // Ignorer les lignes totalement vides ou hors inventaire
+    if (!name && !tag && !serial && !hostname && !local) {
+      return null;
+    }
+
+    if (!name) {
+      name = hostname ? `PC ${hostname}` : (nsn ? `Équipement (${nsn})` : 'Équipement');
+    }
+
+    const cleanSerial = serial && serial !== 'N/A' && serial !== '-' ? serial : undefined;
+    const fullUser = assigned_user ? (grade && !assigned_user.includes(grade) ? `${assigned_user} (${grade})` : assigned_user) : undefined;
+    const asset_tag = tag || cleanSerial || (hostname ? `HOST-${hostname}` : `TAG-${Math.floor(100000 + Math.random() * 900000)}`);
+
+    return {
+      name,
+      asset_tag,
+      serial_number: cleanSerial,
+      hostname,
+      nsn,
+      local_code: local,
+      department,
+      assigned_user: fullUser,
+      user_grade: grade,
+      purchase_price,
+      notes,
+      source_sheet: sheetName,
+    };
+  }
+
   // Parser un fichier Excel ou CSV
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file) return;
 
     setErrorMsg(null);
     setSuccessCount(null);
-    const reader = new FileReader();
+    setLoading(true);
 
-    reader.onload = (evt) => {
-      try {
-        const bstr = evt.target?.result;
-        const wb = XLSX.read(bstr, { type: 'binary' });
-        const wsname = wb.SheetNames[0];
-        const ws = wb.Sheets[wsname];
-        const data = XLSX.utils.sheet_to_json(ws, { raw: false }) as any[];
+    try {
+      const buffer = await file.arrayBuffer();
+      const wb = XLSX.read(buffer, { type: 'array' });
 
-        if (data.length === 0) {
-          setErrorMsg('Le fichier ne contient aucune ligne valide.');
-          return;
+      const sheetsData: SheetInfo[] = [];
+
+      for (const sheetName of wb.SheetNames) {
+        const ws = wb.Sheets[sheetName];
+        const rows = detectHeadersAndParseSheet(ws, sheetName);
+        if (rows.length > 0) {
+          sheetsData.push({ name: sheetName, rows });
         }
-
-        // Normalisation des colonnes
-        const parsed = data.map((row) => normalizeRow(row));
-        setPreviewRows(parsed);
-      } catch (err: any) {
-        setErrorMsg('Format de fichier non reconnu : ' + err.message);
       }
-    };
 
-    reader.readAsBinaryString(file);
+      if (sheetsData.length === 0) {
+        setErrorMsg('Aucune ligne d\'équipement valide détectée dans le fichier.');
+        setWorkbookSheets([]);
+        setPreviewRows([]);
+        return;
+      }
+
+      setWorkbookSheets(sheetsData);
+      setSelectedSheetName('ALL');
+      const allRows = sheetsData.flatMap((s) => s.rows);
+      setPreviewRows(allRows);
+    } catch (err: any) {
+      console.error('Erreur lecture fichier:', err);
+      setErrorMsg('Format de fichier non reconnu : ' + (err?.message || 'Erreur inconnue'));
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Filtrer la prévisualisation par feuille
+  const handleSelectSheet = (sheetName: string) => {
+    setSelectedSheetName(sheetName);
+    if (sheetName === 'ALL') {
+      const allRows = workbookSheets.flatMap((s) => s.rows);
+      setPreviewRows(allRows);
+    } else {
+      const found = workbookSheets.find((s) => s.name === sheetName);
+      setPreviewRows(found ? found.rows : []);
+    }
   };
 
   // Télécharger depuis Google Sheet URL (format export CSV)
@@ -122,7 +312,6 @@ export const ExcelImportView: React.FC = () => {
     setSuccessCount(null);
 
     try {
-      // Transformation de l'URL Google Sheet en URL d'exportation CSV si nécessaire
       let csvUrl = googleSheetUrl.trim();
       if (csvUrl.includes('docs.google.com/spreadsheets/d/')) {
         const match = csvUrl.match(/\/d\/([a-zA-Z0-9-_]+)/);
@@ -137,59 +326,21 @@ export const ExcelImportView: React.FC = () => {
 
       const wb = XLSX.read(csvText, { type: 'string' });
       const ws = wb.Sheets[wb.SheetNames[0]];
-      const data = XLSX.utils.sheet_to_json(ws, { raw: false }) as any[];
+      const rows = detectHeadersAndParseSheet(ws, 'Google Sheet');
 
-      const parsed = data.map((row) => normalizeRow(row));
-      setPreviewRows(parsed);
+      if (rows.length === 0) {
+        throw new Error('Aucune ligne de matériel reconnue dans cette feuille.');
+      }
+
+      setWorkbookSheets([{ name: 'Google Sheet', rows }]);
+      setSelectedSheetName('ALL');
+      setPreviewRows(rows);
     } catch (err: any) {
       setErrorMsg(err.message || 'Erreur lors de la lecture du Google Sheet');
     } finally {
       setLoading(false);
     }
   };
-
-  function normalizeRow(row: any) {
-    const keys = Object.keys(row);
-    const getVal = (targetNames: string[]) => {
-      for (const k of keys) {
-        const cleanK = k.toLowerCase().trim();
-        for (const t of targetNames) {
-          if (cleanK === t.toLowerCase() || cleanK.includes(t.toLowerCase())) {
-            return row[k];
-          }
-        }
-      }
-      return undefined;
-    };
-
-    const name = getVal(['nom du produit', 'description', 'nom']) || 'Équipement sans nom';
-    const tag = getVal(['numéro d\'inventaire', 'numero d\'inventaire', 'asset tag', 'tag', 'inventaire']);
-    const serial = getVal(['numéro de série', 'numero de serie', 'serial', 'ns #', 's/n']);
-    const hostname = getVal(['nom de l\'ordinateur', 'nom pc', 'hostname']);
-    const nsn = getVal(['nsn', 'nomenclature']);
-    const local = getVal(['local', 'bureau', 'cubicule', 'salle', 'location']);
-    const person = getVal(['nom', 'personne', 'utilisateur', 'employe']);
-    const grade = getVal(['grade', 'titre', 'rang']);
-    const department = getVal(['section', 'departement', 'service']);
-    const priceRaw = getVal(['prix', 'valeur', 'price']);
-    const notes = getVal(['actions', 'commentaires', 'remarques', 'notes']);
-
-    const cleanPrice = priceRaw ? parseFloat(String(priceRaw).replace(/[^\d.]/g, '')) : undefined;
-
-    return {
-      name,
-      asset_tag: tag || serial || `TAG-${Math.floor(100000 + Math.random() * 900000)}`,
-      serial_number: serial,
-      hostname,
-      nsn,
-      local_code: local,
-      department,
-      assigned_user: person ? `${person}${grade ? ` (${grade})` : ''}` : undefined,
-      user_grade: grade,
-      purchase_price: cleanPrice,
-      notes,
-    };
-  }
 
   // Valider et importer les lignes prévisualisées
   const handleExecuteImport = async () => {
@@ -202,8 +353,10 @@ export const ExcelImportView: React.FC = () => {
       setSuccessCount(res.importedCount);
       confetti({ particleCount: 80, spread: 60 });
       setPreviewRows([]);
+      setWorkbookSheets([]);
       if (fileInputRef.current) fileInputRef.current.value = '';
     } catch (err: any) {
+      console.error('Erreur importBatch:', err);
       setErrorMsg(err.message || 'Erreur lors de l\'import');
     } finally {
       setLoading(false);
@@ -219,7 +372,7 @@ export const ExcelImportView: React.FC = () => {
           <span>Importation de l'Inventaire (Excel & Google Sheets)</span>
         </h2>
         <p className="text-xs text-slate-400 mt-1">
-          Peuplez votre base de données Supabase à partir d'un fichier existant ou chargez votre inventaire officiel pré-configuré.
+          Peuplez votre base de données à partir de vos fichiers existants ou chargez directement votre inventaire officiel pré-configuré.
         </p>
       </div>
 
@@ -235,17 +388,17 @@ export const ExcelImportView: React.FC = () => {
               Amorcer avec mon inventaire DA AOLF-3600 & AOLE-3600
             </h3>
             <p className="text-xs text-slate-300 max-w-xl leading-relaxed">
-              Charge instantanément les <strong>497 équipements informatiques réels</strong> (Laptops Dell/Dynabook/HP, Écrans Philips, Scanners Fujitsu/Kodak...) et associe automatiquement chaque matériel aux <strong>54 bureaux et cubicules</strong> de vos 2 plans d'étage.
+              Charge instantanément les <strong>497 équipements informatiques réels</strong> (Laptops Dell/Dynabook/HP, Écrans Philips, Scanners...) et associe automatiquement chaque matériel aux <strong>54 bureaux et cubicules</strong> de vos 2 plans d'étage.
             </p>
           </div>
 
           <button
             onClick={handleSeedOfficial}
             disabled={loading}
-            className="py-3 px-5 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs rounded-xl shadow-lg shadow-emerald-500/25 flex items-center space-x-2 transition shrink-0 disabled:opacity-50"
+            className="py-3 px-5 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs rounded-xl shadow-lg shadow-emerald-500/25 flex items-center space-x-2 transition shrink-0 disabled:opacity-50 cursor-pointer"
           >
             <Sparkles className="w-4 h-4 text-slate-950" />
-            <span>{loading ? 'Chargement...' : 'Charger l\'Inventaire Officiel'}</span>
+            <span>{loading ? 'Chargement en cours...' : 'Charger l\'Inventaire Officiel'}</span>
           </button>
         </div>
       </div>
@@ -281,14 +434,14 @@ export const ExcelImportView: React.FC = () => {
               </h4>
               <button
                 onClick={handleDownloadTemplate}
-                className="text-[11px] text-emerald-400 hover:underline flex items-center space-x-1"
+                className="text-[11px] text-emerald-400 hover:underline flex items-center space-x-1 cursor-pointer"
               >
                 <Download className="w-3 h-3" />
                 <span>Modèle .xlsx</span>
               </button>
             </div>
             <p className="text-xs text-slate-400">
-              Prend en charge les formats <code>.xlsx</code>, <code>.xls</code> et <code>.csv</code> avec détection automatique des colonnes.
+              Prend en charge vos classeurs multi-feuilles (ex: <code>A0LF</code>, <code>A0LE</code>) avec détection intelligente des colonnes même si des lignes de titre existent au début.
             </p>
           </div>
 
@@ -305,7 +458,7 @@ export const ExcelImportView: React.FC = () => {
             />
             <FileSpreadsheet className="w-10 h-10 text-slate-500 mx-auto mb-2" />
             <div className="text-xs font-semibold text-slate-200">
-              Cliquez pour sélectionner votre fichier
+              {loading ? 'Analyse du fichier...' : 'Cliquez pour sélectionner votre fichier Excel / CSV'}
             </div>
             <div className="text-[11px] text-slate-500 mt-1">Glissez-déposez votre fichier ici</div>
           </div>
@@ -334,7 +487,7 @@ export const ExcelImportView: React.FC = () => {
             <button
               onClick={handleFetchGoogleSheet}
               disabled={loading || !googleSheetUrl.trim()}
-              className="w-full py-2.5 px-4 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold rounded-xl border border-slate-700 transition disabled:opacity-50"
+              className="w-full py-2.5 px-4 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold rounded-xl border border-slate-700 transition disabled:opacity-50 cursor-pointer"
             >
               {loading ? 'Chargement...' : 'Récupérer les données Google Sheet'}
             </button>
@@ -354,37 +507,82 @@ export const ExcelImportView: React.FC = () => {
           <span>Créer automatiquement les bureaux/locaux manquants trouvés dans le fichier</span>
         </label>
         <span className="text-slate-500">
-          {spaces.length} bureaux existants actuellement
+          {spaces.length} bureaux existants actuellement dans le plan
         </span>
       </div>
+
+      {/* Multi-sheet switcher tabs if multiple sheets detected */}
+      {workbookSheets.length > 1 && (
+        <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-md space-y-2">
+          <div className="flex items-center space-x-2 text-xs font-bold text-slate-300 mb-1">
+            <Filter className="w-3.5 h-3.5 text-emerald-400" />
+            <span>Feuilles détectées dans votre classeur :</span>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <button
+              onClick={() => handleSelectSheet('ALL')}
+              className={`px-3 py-1.5 text-xs rounded-xl font-bold transition flex items-center space-x-1.5 ${
+                selectedSheetName === 'ALL'
+                  ? 'bg-emerald-500 text-slate-950 shadow-md'
+                  : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+              }`}
+            >
+              <span>Toutes les feuilles combinées</span>
+              <span className="px-1.5 py-0.5 rounded-full bg-slate-950/40 text-[10px]">
+                {workbookSheets.reduce((acc, s) => acc + s.rows.length, 0)}
+              </span>
+            </button>
+
+            {workbookSheets.map((s) => (
+              <button
+                key={s.name}
+                onClick={() => handleSelectSheet(s.name)}
+                className={`px-3 py-1.5 text-xs rounded-xl font-bold transition flex items-center space-x-1.5 ${
+                  selectedSheetName === s.name
+                    ? 'bg-emerald-500 text-slate-950 shadow-md'
+                    : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+                }`}
+              >
+                <span>Feuille {s.name}</span>
+                <span className="px-1.5 py-0.5 rounded-full bg-slate-950/40 text-[10px]">
+                  {s.rows.length}
+                </span>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Preview Table if rows loaded */}
       {previewRows.length > 0 && (
         <div className="bg-slate-900 border border-slate-800 rounded-2xl shadow-xl overflow-hidden space-y-4">
-          <div className="p-4 border-b border-slate-800 flex items-center justify-between bg-slate-950/40">
+          <div className="p-4 border-b border-slate-800 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 bg-slate-950/40">
             <div>
-              <h4 className="font-bold text-sm text-white">
-                Aperçu des données à importer ({previewRows.length} lignes)
+              <h4 className="font-bold text-sm text-white flex items-center space-x-2">
+                <span>Aperçu des données à importer</span>
+                <span className="px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 text-xs font-mono font-bold">
+                  {previewRows.length} équipements détectés
+                </span>
               </h4>
-              <p className="text-xs text-slate-400">
-                Vérifiez les correspondances avant de valider l'insertion dans la base.
+              <p className="text-xs text-slate-400 mt-0.5">
+                Vérifiez les correspondances avant de valider l'insertion dans la base de données.
               </p>
             </div>
             <button
               onClick={handleExecuteImport}
               disabled={loading}
-              className="py-2.5 px-5 bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-xs font-bold rounded-xl shadow-md transition flex items-center space-x-2 disabled:opacity-50"
+              className="py-2.5 px-5 bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-xs font-bold rounded-xl shadow-md transition flex items-center space-x-2 disabled:opacity-50 cursor-pointer shrink-0"
             >
               <span>{loading ? 'Importation...' : `Valider et Importer ${previewRows.length} Équipements`}</span>
               <ArrowRight className="w-4 h-4" />
             </button>
           </div>
 
-          <div className="overflow-x-auto max-h-80">
+          <div className="overflow-x-auto max-h-96">
             <table className="w-full text-left text-xs border-collapse">
               <thead className="sticky top-0 bg-slate-950 border-b border-slate-800 text-slate-400 uppercase text-[10px]">
                 <tr>
-                  <th className="py-2.5 px-4">Tag</th>
+                  <th className="py-2.5 px-4">Tag / Inventaire</th>
                   <th className="py-2.5 px-4">Nom Produit</th>
                   <th className="py-2.5 px-4">S/N</th>
                   <th className="py-2.5 px-4">Nom PC</th>
@@ -395,7 +593,7 @@ export const ExcelImportView: React.FC = () => {
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-800/60 text-slate-300">
-                {previewRows.slice(0, 15).map((row, idx) => (
+                {previewRows.slice(0, 20).map((row, idx) => (
                   <tr key={idx} className="hover:bg-slate-800/40">
                     <td className="py-2 px-4 font-mono font-bold text-emerald-400">{row.asset_tag}</td>
                     <td className="py-2 px-4 font-semibold text-white">{row.name}</td>
@@ -410,9 +608,9 @@ export const ExcelImportView: React.FC = () => {
               </tbody>
             </table>
           </div>
-          {previewRows.length > 15 && (
+          {previewRows.length > 20 && (
             <div className="p-3 text-center text-xs text-slate-500 border-t border-slate-800">
-              ... et {previewRows.length - 15} autres lignes
+              ... et {previewRows.length - 20} autres équipements prêts à être importés
             </div>
           )}
         </div>
