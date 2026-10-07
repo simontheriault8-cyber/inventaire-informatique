@@ -58,6 +58,10 @@ export const FloorPlanViewer: React.FC<FloorPlanViewerProps> = ({
   // Recherche rapide sur la carte
   const [searchQuery, setSearchQuery] = useState('');
 
+  // Affichage compact et masquage des compteurs
+  const [showAssetCounts, setShowAssetCounts] = useState(false);
+  const [buttonScale, setButtonScale] = useState<'xs' | 'sm' | 'md'>('xs');
+
   // Zoom et Pan
   const [zoom, setZoom] = useState(1);
   const [pan, setPan] = useState({ x: 0, y: 0 });
@@ -385,22 +389,28 @@ export const FloorPlanViewer: React.FC<FloorPlanViewerProps> = ({
 
                     {/* Button Badge */}
                     <div
-                      className={`flex items-center space-x-1 px-2.5 py-1 rounded-xl shadow-lg border text-white font-bold text-xs transition whitespace-nowrap ${
+                      className={`flex items-center justify-center transition-all whitespace-nowrap shadow-md border ${
                         isSelected
-                          ? 'ring-4 ring-white shadow-2xl scale-110'
+                          ? 'ring-3 ring-white shadow-xl scale-110 z-30'
                           : isMatched
-                          ? 'ring-3 ring-amber-400 bg-amber-600 border-amber-300'
-                          : 'border-white/20'
+                          ? 'ring-2 ring-amber-400 bg-amber-600 border-amber-300'
+                          : 'border-white/20 hover:border-white/50'
+                      } ${
+                        buttonScale === 'xs'
+                          ? 'px-1.5 py-0.5 text-[9.5px] rounded-md font-bold'
+                          : buttonScale === 'sm'
+                          ? 'px-2 py-0.5 text-[11px] rounded-lg font-bold'
+                          : 'px-2.5 py-1 text-xs rounded-xl font-bold'
                       }`}
                       style={{
                         backgroundColor: isMatched ? '#d97706' : space.color || '#10b981',
                       }}
                     >
-                      <span className="font-mono tracking-tight">{space.code}</span>
+                      <span className="font-mono tracking-tight leading-none text-white">{space.code}</span>
 
-                      {/* Equipment count badge */}
-                      {spaceAssetsCount > 0 && (
-                        <span className="ml-1 px-1.5 py-0.2 rounded-full bg-slate-950/70 text-white text-[10px] font-bold">
+                      {/* Equipment count badge (hidden by default) */}
+                      {showAssetCounts && spaceAssetsCount > 0 && (
+                        <span className="ml-1 px-1 py-0.2 rounded bg-slate-950/70 text-white text-[9px] font-bold leading-none">
                           {spaceAssetsCount}
                         </span>
                       )}
@@ -465,6 +475,58 @@ export const FloorPlanViewer: React.FC<FloorPlanViewerProps> = ({
           title="Réinitialiser la vue"
         >
           <RotateCcw className="w-4 h-4" />
+        </button>
+
+        <div className="w-px h-4 bg-slate-800 mx-1" />
+
+        {/* Taille des boutons de bureaux */}
+        <div className="flex items-center space-x-1 bg-slate-950/70 p-0.5 rounded-xl border border-slate-800">
+          <button
+            onClick={() => setButtonScale('xs')}
+            className={`px-2 py-0.5 text-[10px] font-bold rounded-lg transition ${
+              buttonScale === 'xs'
+                ? 'bg-emerald-500 text-slate-950 shadow-sm'
+                : 'text-slate-400 hover:text-white'
+            }`}
+            title="Taille ultra-compacte (idéale pour bureaux serrés)"
+          >
+            XS
+          </button>
+          <button
+            onClick={() => setButtonScale('sm')}
+            className={`px-2 py-0.5 text-[10px] font-bold rounded-lg transition ${
+              buttonScale === 'sm'
+                ? 'bg-emerald-500 text-slate-950 shadow-sm'
+                : 'text-slate-400 hover:text-white'
+            }`}
+            title="Taille compacte"
+          >
+            S
+          </button>
+          <button
+            onClick={() => setButtonScale('md')}
+            className={`px-2 py-0.5 text-[10px] font-bold rounded-lg transition ${
+              buttonScale === 'md'
+                ? 'bg-emerald-500 text-slate-950 shadow-sm'
+                : 'text-slate-400 hover:text-white'
+            }`}
+            title="Taille standard"
+          >
+            M
+          </button>
+        </div>
+
+        {/* Bouton pour afficher/masquer le nombre de matériels */}
+        <button
+          onClick={() => setShowAssetCounts(!showAssetCounts)}
+          className={`px-2 py-1 text-[11px] font-semibold rounded-xl border transition flex items-center space-x-1 ${
+            showAssetCounts
+              ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
+              : 'text-slate-400 hover:text-slate-200 border-transparent hover:bg-slate-800'
+          }`}
+          title="Afficher ou masquer le décompte d'équipements sur les boutons"
+        >
+          <span># Qté</span>
         </button>
       </div>
 
